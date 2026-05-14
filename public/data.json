@@ -1,0 +1,3047 @@
+{
+  "lastUpdated": "2026-05-14",
+  "newThisWeek": [
+    {
+      "name": "Recraft V3",
+      "tagline": "AI design tool with vector superpowers",
+      "description": "Recraft is an AI-powered design tool that generates production-ready vector illustrations, icons, and 3D images from text prompts. Unlike raster-only generators, Recraft outputs clean SVGs you can edit in Figma or Illustrator. V3 introduced brand-consistent style controls and infinite canvas collaboration.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier available, Pro $25/mo, Team $40/mo per seat",
+      "specialty": "Vector illustration and icon generation with editable SVG output",
+      "website": "https://www.recraft.ai",
+      "rank": 1,
+      "categoryId": "image",
+      "categoryLabel": "Image",
+      "categoryColor": "#ec4899",
+      "heroDescription": "The first AI that generates production-ready vector art. Clean SVGs, editable icons, and brand-consistent illustrations from a single prompt.",
+      "preview": "https://framerusercontent.com/assets/HvQ4bEfLTmu6moXTB0tfExFJ1l0.png",
+      "pros": [
+        "Generous free tier available",
+        "Built for team collaboration",
+        "Professional-grade results",
+        "Vector illustration and icon generation with editable svg..."
+      ],
+      "cons": [
+        "Limited offline functionality",
+        "Can be resource-intensive for large projects"
+      ]
+    },
+    {
+      "name": "ElevenLabs",
+      "tagline": "Ultra-realistic AI voice synthesis",
+      "description": "ElevenLabs produces the most human-sounding AI speech available. Its voice cloning needs only seconds of audio to replicate any voice with emotional nuance, breathing patterns, and natural pacing. Used by audiobook publishers, game studios, and content creators for professional-grade voiceover.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (10k chars/mo), Starter $5/mo, Creator $22/mo, Pro $99/mo",
+      "specialty": "Hyper-realistic voice cloning and multilingual text-to-speech",
+      "website": "https://elevenlabs.io",
+      "rank": 2,
+      "categoryId": "music",
+      "categoryLabel": "Voice",
+      "categoryColor": "#06b6d4",
+      "heroDescription": "Voice cloning so real it's uncanny. Seconds of audio is all it needs to replicate any voice with breathing, emotion, and perfect pacing.",
+      "preview": "https://elevenlabs.io/cover.png",
+      "pros": [
+        "Generous free tier available",
+        "Multilingual support",
+        "Professional-grade results",
+        "Hyper-realistic voice cloning and multilingual text-to-sp..."
+      ],
+      "cons": [
+        "Premium plans can be expensive",
+        "Occasional inconsistency in results"
+      ]
+    },
+    {
+      "name": "Lovable",
+      "tagline": "Describe an app, get a full-stack product",
+      "description": "Lovable (formerly GPT Engineer) lets you describe any web application in plain English and generates a complete full-stack codebase with frontend, backend, database, auth, and deployment. It produces clean React + Supabase projects you can edit, extend, and ship to production.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (limited), Starter $20/mo, Launch $50/mo, Scale $100/mo",
+      "specialty": "Full-stack app generation from natural language with deployable output",
+      "website": "https://lovable.dev",
+      "rank": 3,
+      "categoryId": "code",
+      "categoryLabel": "Code",
+      "categoryColor": "#4ecdc4",
+      "heroDescription": "Describe any app in plain English and get a full-stack codebase — frontend, backend, auth, database, deployed. Ship products in minutes, not months.",
+      "preview": "https://lovable.dev/img/opengraph-image.png",
+      "pros": [
+        "Generous free tier available",
+        "Multilingual support",
+        "No coding skills required",
+        "Full-stack app generation from natural language with depl..."
+      ],
+      "cons": [
+        "Premium plans can be expensive",
+        "Usage limits on lower tiers"
+      ]
+    },
+    {
+      "name": "HeyGen",
+      "tagline": "Create AI avatar videos in minutes",
+      "description": "HeyGen creates professional talking-head videos using photorealistic AI avatars. Choose from 100+ stock avatars or clone your own likeness. It handles lip sync, gestures, and natural eye movement, making it ideal for training videos, marketing content, and personalized outreach at scale.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (1 min), Creator $24/mo, Business $72/mo",
+      "specialty": "Photorealistic AI avatar video generation with custom cloning",
+      "website": "https://www.heygen.com",
+      "rank": 4,
+      "categoryId": "video",
+      "categoryLabel": "Video",
+      "categoryColor": "#ff6b6b",
+      "preview": "https://cdn.sanity.io/images/pdhqcmb1/production/579e83ff34c4c832744efaedb9681d255e58dc13-1200x630.png?fit=max&amp;auto=format",
+      "pros": [
+        "Generous free tier available",
+        "Highly customizable output",
+        "Professional-grade results",
+        "Photorealistic ai avatar video generation with custom clo..."
+      ],
+      "cons": [
+        "Premium plans can be expensive",
+        "Requires stable internet connection"
+      ]
+    },
+    {
+      "name": "Bolt.new",
+      "tagline": "AI full-stack dev in your browser",
+      "description": "Bolt.new by StackBlitz lets you prompt, run, edit, and deploy full-stack web apps entirely in the browser. It uses WebContainers to run Node.js natively without a server, so you get instant previews and real package installs. Supports React, Next.js, Astro, and more.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (limited tokens), Pro $20/mo, Teams $40/mo",
+      "specialty": "Browser-based full-stack development with instant previews",
+      "website": "https://bolt.new",
+      "rank": 5,
+      "categoryId": "code",
+      "categoryLabel": "Code",
+      "categoryColor": "#4ecdc4",
+      "preview": "https://bolt.new/static/social_preview_index.jpg",
+      "pros": [
+        "Generous free tier available",
+        "Fast, real-time processing",
+        "Works entirely in the browser",
+        "Browser-based full-stack development with instant previews"
+      ],
+      "cons": [
+        "Usage limits on lower tiers",
+        "Still in beta / early access"
+      ]
+    },
+    {
+      "name": "v0",
+      "tagline": "AI UI generation by Vercel",
+      "description": "v0 by Vercel generates React UI components from text prompts or screenshots. It outputs clean, accessible code using shadcn/ui and Tailwind CSS that you can copy directly into your project. Ideal for rapidly prototyping interfaces, landing pages, and dashboards.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (limited), Premium $20/mo",
+      "specialty": "React UI component generation from prompts and screenshots",
+      "website": "https://v0.dev",
+      "rank": 6,
+      "categoryId": "code",
+      "categoryLabel": "Code",
+      "categoryColor": "#4ecdc4",
+      "preview": "https://v0.app/chat/api/og",
+      "pros": [
+        "Generous free tier available",
+        "API and integration support",
+        "React ui component generation from prompts and screenshots"
+      ],
+      "cons": [
+        "Usage limits on lower tiers",
+        "Output may need manual refinement"
+      ]
+    },
+    {
+      "name": "Napkin AI",
+      "tagline": "Turn text into visual diagrams instantly",
+      "description": "Napkin AI transforms written content into polished visual explanations — flowcharts, diagrams, infographics, and process maps — with one click. Paste any text and Napkin generates multiple visual options you can customize and export for presentations, docs, or social media.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier available, Pro $18/mo",
+      "specialty": "Automatic visual diagram and infographic generation from text",
+      "website": "https://www.napkin.ai",
+      "rank": 7,
+      "categoryId": "productivity",
+      "categoryLabel": "Productivity",
+      "categoryColor": "#8b5cf6",
+      "preview": "https://www.napkin.ai/assets/v5/use-cases/presentations.png?v=3",
+      "pros": [
+        "Generous free tier available",
+        "Highly customizable output",
+        "Automatic visual diagram and infographic generation from ..."
+      ],
+      "cons": [
+        "Requires stable internet connection",
+        "Output may need manual refinement"
+      ]
+    },
+    {
+      "name": "Granola",
+      "tagline": "AI notepad for meetings",
+      "description": "Granola sits quietly during your meetings and enhances your rough notes with full AI-powered context from the conversation. Unlike transcription tools, you keep writing your own notes — Granola just fills in the gaps, adds action items, and structures everything after the call ends.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (25 meetings), Pro $10/mo, Business $19/mo",
+      "specialty": "AI-enhanced meeting notes that augment your own writing",
+      "website": "https://www.granola.ai",
+      "rank": 8,
+      "categoryId": "productivity",
+      "categoryLabel": "Productivity",
+      "categoryColor": "#8b5cf6",
+      "preview": "https://www.granola.ai/opengraph-image.png?d8119137ca8efcec",
+      "pros": [
+        "Generous free tier available",
+        "Ai-enhanced meeting notes that augment your own writing",
+        "Active development with regular updates"
+      ],
+      "cons": [
+        "Can be resource-intensive for large projects",
+        "Occasional inconsistency in results"
+      ]
+    },
+    {
+      "name": "Luma Dream Machine",
+      "tagline": "Fast, high-quality AI video from text and images",
+      "description": "Luma Dream Machine generates surprisingly coherent video clips from text prompts or still images. It excels at cinematic camera movements, consistent characters, and natural lighting. Its speed and free tier make it one of the most accessible video AI tools for creators.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (30 gen/mo), Standard $24/mo, Pro $96/mo",
+      "specialty": "Fast cinematic video generation with strong motion coherence",
+      "website": "https://lumalabs.ai",
+      "rank": 9,
+      "categoryId": "video",
+      "categoryLabel": "Video",
+      "categoryColor": "#ff6b6b",
+      "preview": "https://cdn.sanity.io/images/2ylxvaa2/production/ff7469d468f6f7e447ccb4a50276f1cb03c6664d-1200x630.jpg?w=1200&amp;h=630&amp;fm=jpg",
+      "pros": [
+        "Generous free tier available",
+        "Fast, real-time processing",
+        "Fast cinematic video generation with strong motion coherence"
+      ],
+      "cons": [
+        "Premium plans can be expensive",
+        "Output may need manual refinement"
+      ]
+    },
+    {
+      "name": "Descript",
+      "tagline": "Edit video and audio like a text document",
+      "description": "Descript turns video and podcast editing into text editing — delete a word from the transcript and the video cuts itself. It includes AI-powered filler word removal, eye contact correction, studio-quality audio enhancement, and automatic clip generation for social media.",
+      "isFree": false,
+      "hasFreeTier": true,
+      "pricing": "Free tier (1 project), Hobbyist $24/mo, Business $33/mo",
+      "specialty": "Text-based video and podcast editing with AI enhancement",
+      "website": "https://www.descript.com",
+      "rank": 10,
+      "categoryId": "video",
+      "categoryLabel": "Video",
+      "categoryColor": "#ff6b6b",
+      "preview": "https://cdn.builder.io/api/v1/image/assets%2Ffcea5005d671451e9b07839c893228d0%2Fb1cf2c175fbe4a028dff4622ee1ce727",
+      "pros": [
+        "Generous free tier available",
+        "Professional-grade results",
+        "Text-based video and podcast editing with ai enhancement"
+      ],
+      "cons": [
+        "Can be resource-intensive for large projects",
+        "Occasional inconsistency in results"
+      ]
+    }
+  ],
+  "allRounders": [
+    {
+      "name": "ChatGPT",
+      "category": "chat",
+      "pros": [
+        "Intuitive, easy-to-learn interface",
+        "Growing community and ecosystem",
+        "Clean, modern user experience"
+      ],
+      "cons": [
+        "No free tier available",
+        "Output may need manual refinement"
+      ]
+    },
+    {
+      "name": "Claude",
+      "category": "chat",
+      "pros": [
+        "Growing community and ecosystem",
+        "Clean, modern user experience",
+        "Active development with regular updates"
+      ],
+      "cons": [
+        "No free tier available",
+        "Requires stable internet connection"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "category": "chat",
+      "pros": [
+        "Intuitive, easy-to-learn interface",
+        "Growing community and ecosystem",
+        "Clean, modern user experience"
+      ],
+      "cons": [
+        "No free tier available",
+        "Output may need manual refinement"
+      ]
+    },
+    {
+      "name": "Perplexity",
+      "category": "chat",
+      "pros": [
+        "Growing community and ecosystem",
+        "Clean, modern user experience",
+        "Active development with regular updates"
+      ],
+      "cons": [
+        "No free tier available",
+        "Occasional inconsistency in results"
+      ]
+    },
+    {
+      "name": "Notion AI",
+      "category": "productivity",
+      "pros": [
+        "Intuitive, easy-to-learn interface",
+        "Growing community and ecosystem",
+        "Clean, modern user experience"
+      ],
+      "cons": [
+        "No free tier available",
+        "Occasional inconsistency in results"
+      ]
+    },
+    {
+      "name": "Google NotebookLM",
+      "category": "school",
+      "pros": [
+        "Intuitive, easy-to-learn interface",
+        "Growing community and ecosystem",
+        "Clean, modern user experience"
+      ],
+      "cons": [
+        "No free tier available",
+        "Requires stable internet connection"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "video",
+      "name": "Video",
+      "color": "#ff6b6b",
+      "tools": [
+        {
+          "name": "Kling 3.0",
+          "tagline": "The photorealism benchmark in AI video",
+          "description": "Kling 3.0 by Kuaishou is widely considered the most technically capable AI video generator available in 2026. It produces native 4K video at 60fps with the most realistic motion physics of any current model -- fluid motion, fabric draping, and particle behavior that look natural. Its unified multimodal architecture generates video, audio, and images together, enabling native lip-sync, multi-shot storyboarding, and element consistency.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro plans from $5.99/mo",
+          "specialty": "Native 4K/60fps video with best-in-class motion physics and realism",
+          "website": "https://klingai.com",
+          "rank": 1,
+          "preview": "https://kling.ai/static/media/kling-og.png",
+          "pros": [
+            "Generous free tier available",
+            "High-resolution output quality",
+            "API and integration support",
+            "Native 4k/60fps video with best-in-class motion physics a..."
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Google Veo 3.1",
+          "tagline": "Google's best all-around video AI",
+          "description": "Veo 3.1 is Google DeepMind's latest video generation model, praised as the best all-rounder in the space. It offers strong prompt adherence, combined video and audio generation powered by Lyria 3, and fully directable AI avatars. Anyone with a Google account gets 10 free generations per month, making it one of the most accessible options.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free (10/month with Google account), AI Ultra subscribers get 1,000/mo",
+          "specialty": "Combined video + audio generation with free access tier",
+          "website": "https://deepmind.google/technologies/veo/",
+          "rank": 2,
+          "preview": "https://lh3.googleusercontent.com/KjZqcrU67NVMcKTQvMWdvOVVVa6FUIceiCX26ZhSZzEpowbl3hu_-BI91LpSMKrcXdTNG20cnIzW7Q27KGyx-T3Ye2ZsrUDd8fFHDXlns2Gjpky0xzE=w2000-h2000-n-nu",
+          "pros": [
+            "Generous free tier available",
+            "Combined video + audio generation with free access tier",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "Requires stable internet connection",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Runway Gen-4.5",
+          "tagline": "The filmmaker's choice for AI video",
+          "description": "Runway Gen-4.5 is the top-rated video model among professional filmmakers and VFX artists. It supports text-to-video and image-to-video with precise camera controls (pan, tilt, zoom), Multi-Motion Brush for animating specific regions, and up to 60 seconds of continuous 4K video. Partnered with NVIDIA for next-gen infrastructure.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Standard $12/mo, Pro $28/mo, Unlimited $76/mo",
+          "specialty": "Professional filmmaking tools with granular camera and motion control",
+          "website": "https://runwayml.com",
+          "rank": 3,
+          "preview": "https://runwayml.com/opengraph-image.png?opengraph-image.0bt75ga2._tb4.png",
+          "pros": [
+            "Generous free tier available",
+            "High-resolution output quality",
+            "Professional-grade results",
+            "Professional filmmaking tools with granular camera and mo..."
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Usage limits on lower tiers"
+          ]
+        },
+        {
+          "name": "Pika 2.5",
+          "tagline": "Fun and creative video AI",
+          "description": "Pika continues to evolve as the most playful and controllable video AI tool. Version 2.5 introduced PikaStream for real-time video chat with AI agents, integrated sound effect generation, upgraded lip-sync for complex expressions, and the Pika Powers creative toolkit for editing, styling, and effects.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free (80 monthly credits), Standard $8/mo, Pro $28/mo",
+          "specialty": "Creative video effects, real-time AI video chat, and sound generation",
+          "website": "https://pika.art",
+          "rank": 4,
+          "preview": "https://pika-kz6almgw8-pika-labs.vercel.app/images/og.jpeg",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "API and integration support",
+            "Creative video effects, real-time ai video chat, and soun..."
+          ],
+          "cons": [
+            "Steep learning curve for beginners",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Minimax Hailuo",
+          "tagline": "Fast and free AI video generator",
+          "description": "Minimax's Hailuo AI video generator has gained rapid popularity for its impressive quality and generous free tier. It produces smooth, coherent video clips with good motion understanding and is one of the fastest generators available, making it a strong free alternative to paid tools.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (generous), Premium plans available",
+          "specialty": "Fast, high-quality video generation with generous free access",
+          "website": "https://hailuoai.video",
+          "rank": 5,
+          "preview": "https://hailuoai.video/static/media/hailuo-og.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "API and integration support",
+            "Fast, high-quality video generation with generous free ac..."
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Synthesia",
+          "tagline": "AI video with virtual presenters",
+          "description": "Synthesia creates professional videos with AI avatars that speak any script in 130+ languages. No cameras, actors, or studios needed — type your script, pick an avatar, and get a polished video in minutes.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free demo, Starter $22/mo, Creator $67/mo",
+          "specialty": "AI avatar video production at enterprise scale",
+          "website": "https://www.synthesia.io",
+          "rank": 6,
+          "preview": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/67dad5d5c238a51c2327e203_OG-Image_2025.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Multilingual support",
+            "Professional-grade results",
+            "Ai avatar video production at enterprise scale"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "InVideo AI",
+          "tagline": "Create videos with a prompt",
+          "description": "InVideo AI generates complete videos from a single text prompt — script, scenes, stock footage, voiceover, music, and subtitles. Edit any part by chatting with the AI to refine the result.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (watermark), Plus $25/mo, Max $60/mo",
+          "specialty": "Full video creation from text with AI editing",
+          "website": "https://invideo.io",
+          "rank": 7,
+          "preview": "https://cdn.invideo.io/static/img/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Full video creation from text with ai editing",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Opus Clip",
+          "tagline": "AI short-form video from long content",
+          "description": "Opus Clip uses AI to find the most engaging moments in long videos and automatically creates viral short clips for TikTok, Reels, and Shorts. It adds captions, reframes for vertical, and scores clips by virality potential.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Starter $19/mo, Pro $39/mo",
+          "specialty": "AI-powered long-to-short video repurposing",
+          "website": "https://www.opus.pro",
+          "rank": 8,
+          "preview": "https://cdn.prod.website-files.com/6388604483b03a9ecb34d695/6893fad68d6058a917d7f3c6_mainpage_thumbnail.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Ai-powered long-to-short video repurposing",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Limited offline functionality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "name": "Code",
+      "color": "#4ecdc4",
+      "tools": [
+        {
+          "name": "Cursor",
+          "tagline": "AI-first code editor",
+          "description": "Cursor is a VS Code fork built around AI-powered code editing. It offers intelligent autocomplete, multi-file editing, codebase-aware chat, and the ability to write and refactor code using natural language commands. Rapidly adopted by developers for its seamless integration.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Pro $20/mo, Business $40/mo",
+          "specialty": "AI-native IDE with codebase-aware editing and chat",
+          "website": "https://cursor.com",
+          "rank": 1,
+          "preview": "https://cursor.com/public/opengraph-image.png",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Multilingual support",
+            "No coding skills required"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "GitHub Copilot",
+          "tagline": "AI pair programmer by GitHub",
+          "description": "GitHub Copilot integrates directly into VS Code, JetBrains, and other editors to provide real-time code suggestions. Powered by OpenAI models, it understands context from your entire project and can generate functions, tests, and documentation from comments or prompts.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Individual $10/mo, Business $19/mo",
+          "specialty": "Inline code completion and generation across all major IDEs",
+          "website": "https://github.com/features/copilot",
+          "rank": 2,
+          "preview": "https://images.ctfassets.net/8aevphvgewt8/5IdZ8KizWhMOGixAmVSw0g/f81f5f263a88eabe5d3e102300d44a88/github-copilot-social-img.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "API and integration support",
+            "Inline code completion and generation across all major ides"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Devin",
+          "tagline": "Autonomous AI software engineer",
+          "description": "Devin by Cognition AI is an autonomous coding agent that can plan, write, debug, and deploy code independently. It has its own terminal, browser, and code editor, and can handle complex multi-step engineering tasks from start to finish.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Team plan $500/mo",
+          "specialty": "Fully autonomous software engineering agent",
+          "website": "https://devin.ai",
+          "rank": 3,
+          "preview": "https://devin.ai/cover.png",
+          "pros": [
+            "Works entirely in the browser",
+            "Fully autonomous software engineering agent",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Premium plans can be expensive",
+            "Steep learning curve for beginners"
+          ]
+        },
+        {
+          "name": "Windsurf",
+          "tagline": "Agentic IDE by Codeium",
+          "description": "Windsurf is an AI-powered IDE that combines copilot assistance with agentic capabilities. It can understand your entire codebase, make multi-file edits, run terminal commands, and proactively suggest improvements while you code.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $15/mo, Teams $35/mo",
+          "specialty": "Agentic IDE with deep codebase understanding",
+          "website": "https://windsurf.com",
+          "rank": 4,
+          "preview": "https://exafunction.github.io/public/images/website_thumbnails/home.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Agentic ide with deep codebase understanding",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Replit Agent",
+          "tagline": "Build apps with AI in the browser",
+          "description": "Replit Agent lets you describe an app in plain English and builds it for you -- including frontend, backend, database, and deployment. Built into Replit's browser-based IDE, it's designed for rapid prototyping and shipping full-stack applications without local setup.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Replit Core $25/mo",
+          "specialty": "End-to-end app building and deployment from natural language",
+          "website": "https://replit.com",
+          "rank": 5,
+          "preview": "https://replit.com/public/images/opengraph_rebrand.jpg",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Multilingual support",
+            "No coding skills required"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Tabnine",
+          "tagline": "AI code completion that runs locally",
+          "description": "Tabnine provides AI code completion that can run entirely on your machine for privacy. It supports 30+ languages, integrates with every major IDE, and offers teams a private AI model trained on their codebase.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $12/mo, Enterprise custom",
+          "specialty": "Privacy-first AI code completion with local deployment",
+          "website": "https://www.tabnine.com",
+          "rank": 6,
+          "preview": "https://www.tabnine.com/wp-content/uploads/2024/01/tabnine-og.png",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Built for team collaboration",
+            "Multilingual support"
+          ],
+          "cons": [
+            "Enterprise pricing not transparent",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Cody",
+          "tagline": "AI coding assistant by Sourcegraph",
+          "description": "Cody by Sourcegraph understands your entire codebase — every repository, every dependency. It answers questions about your code, generates functions, and explains complex logic with full context awareness.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $9/mo, Enterprise $19/mo per user",
+          "specialty": "Full-codebase-aware AI coding assistance",
+          "website": "https://sourcegraph.com/cody",
+          "rank": 7,
+          "preview": "https://sourcegraph.com/docs/api/og/cody",
+          "pros": [
+            "Generous free tier available",
+            "Full-codebase-aware ai coding assistance",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Enterprise pricing not transparent",
+            "Steep learning curve for beginners"
+          ]
+        },
+        {
+          "name": "Aider",
+          "tagline": "AI pair programming in your terminal",
+          "description": "Aider is an open-source AI pair programmer that works in your terminal. It can edit multiple files, handle git commits, and work with any LLM. Popular among developers who prefer command-line workflows.",
+          "isFree": true,
+          "hasFreeTier": true,
+          "pricing": "Free (open source), bring your own API key",
+          "specialty": "Terminal-based AI pair programming with git integration",
+          "website": "https://aider.chat",
+          "rank": 8,
+          "preview": "https://aider.chat/assets/aider-og.png",
+          "pros": [
+            "Completely free to use",
+            "Open-source and community-driven",
+            "Terminal-based ai pair programming with git integration"
+          ],
+          "cons": [
+            "Requires stable internet connection",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "GameForge AI",
+          "tagline": "Your AI-powered game development copilot",
+          "description": "GameForge AI is a specialized coding assistant built for game developers working in Unity, Unreal Engine, and Godot. It understands game architecture patterns like ECS, scene graphs, and state machines out of the box. Get context-aware code completions, shader debugging, and performance profiling suggestions tailored to real-time applications.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier with 50 queries/day; Pro at $18/mo with unlimited queries and engine-specific fine-tuning",
+          "specialty": "Game development coding assistance across major engines and frameworks",
+          "website": "https://gameforgeai.com",
+          "rank": 9,
+          "preview": "",
+          "pros": [
+            "Deep integration with Unity, Unreal, and Godot project structures",
+            "Understands common game patterns like ECS, physics layers, and shader code",
+            "Built-in performance profiling suggestions for real-time applications",
+            "Generates boilerplate for networking, save systems, and input handling"
+          ],
+          "cons": [
+            "Free tier limited to 50 queries per day",
+            "Less effective for niche or custom engines",
+            "Shader suggestions occasionally produce deprecated syntax for older engine versions"
+          ]
+        },
+        {
+          "name": "DevQuest",
+          "tagline": "Ship your game faster with AI that speaks your engine",
+          "description": "DevQuest is an AI coding companion designed exclusively for indie and professional game developers. It provides intelligent autocomplete, bug detection, and architecture recommendations grounded in real-world game development workflows. Whether you're writing C# for Unity or GDScript for Godot, DevQuest adapts to your stack and coding style.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free for open-source projects; Indie plan at $12/mo; Studio plan at $39/mo with team collaboration",
+          "specialty": "AI-assisted game programming with engine-aware context and debugging",
+          "website": "https://devquest.ai",
+          "rank": 10,
+          "preview": "",
+          "pros": [
+            "Free for open-source game projects with no query limits",
+            "Supports C#, C++, GDScript, Lua, and HLSL/GLSL out of the box",
+            "Inline documentation pulls from official engine docs automatically",
+            "Studio plan includes shared AI context across team members"
+          ],
+          "cons": [
+            "Team collaboration features locked behind the highest tier",
+            "Can struggle with highly custom rendering pipelines",
+            "No direct IDE plugin for Unreal — works via CLI and web interface only"
+          ]
+        },
+        {
+          "name": "OpenClaw",
+          "tagline": "AI-powered code review and refactoring at your fingertips",
+          "description": "OpenClaw is an intelligent code analysis tool that automatically detects bugs, security vulnerabilities, and performance bottlenecks in your codebase. It provides actionable refactoring suggestions with one-click fixes and integrates seamlessly into popular IDEs and CI/CD pipelines. OpenClaw supports over 40 programming languages and learns from your team's coding patterns over time.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier for open-source projects; Pro at $19/mo per developer; Team at $49/mo per seat",
+          "specialty": "Automated code review, bug detection, and intelligent refactoring",
+          "website": "https://openclaw.ai",
+          "rank": 11,
+          "preview": "",
+          "pros": [
+            "Supports 40+ programming languages with deep semantic analysis",
+            "Seamless integration with GitHub, GitLab, and all major IDEs",
+            "Free tier available for open-source and solo developers",
+            "Learns and adapts to your team's unique coding conventions"
+          ],
+          "cons": [
+            "Advanced security scanning only available on paid plans",
+            "Initial setup for large monorepos can be time-consuming",
+            "Occasionally flags false positives on unconventional code patterns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat",
+      "name": "Chat",
+      "color": "#a78bfa",
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "tagline": "OpenAI's conversational AI",
+          "description": "ChatGPT is OpenAI's flagship conversational AI, capable of answering questions, writing content, coding, analyzing data, and much more. With GPT-4o and its multimodal capabilities, it can process text, images, and voice, making it the most widely-used AI assistant globally.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (GPT-4o mini), Plus $20/mo, Pro $200/mo",
+          "specialty": "General-purpose AI assistant with multimodal capabilities",
+          "website": "https://chat.openai.com",
+          "rank": 1,
+          "preview": "https://images.openai.com/blob/a2e49de2-ba5b-4869-9c2d-db3b4b5571c4/chatgpt.jpg",
+          "pros": [
+            "Generous free tier available",
+            "General-purpose ai assistant with multimodal capabilities",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Usage limits on lower tiers"
+          ]
+        },
+        {
+          "name": "Claude",
+          "tagline": "Thoughtful AI by Anthropic",
+          "description": "Claude by Anthropic is known for its nuanced, careful, and thorough responses. It excels at long-form analysis, coding, creative writing, and complex reasoning tasks. With a large context window, Claude can process entire books and codebases in a single conversation.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $20/mo, Team $25/mo per user",
+          "specialty": "Long-context analysis, nuanced reasoning, and safe AI",
+          "website": "https://claude.ai",
+          "rank": 2,
+          "preview": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1301d3e9e10dce1ad8eab43c41f24da3c584df9e-2880x1620.png&w=3840&q=75",
+          "pros": [
+            "Generous free tier available",
+            "Long-context analysis, nuanced reasoning, and safe ai",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "Steep learning curve for beginners",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Gemini",
+          "tagline": "Google's multimodal AI",
+          "description": "Gemini is Google's most capable AI model, deeply integrated across Google products. It handles text, images, video, and code natively. Gemini Advanced offers enhanced reasoning, and its integration with Google Search and Workspace makes it uniquely powerful for productivity.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Gemini Advanced $20/mo (bundled with Google One AI Premium)",
+          "specialty": "Deep Google ecosystem integration with multimodal understanding",
+          "website": "https://gemini.google.com",
+          "rank": 3,
+          "preview": "https://www.gstatic.com/lamda/images/gemini_aurora_thumbnail_4g_e74822ff0ca4259beb718.png",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Deep google ecosystem integration with multimodal underst..."
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Steep learning curve for beginners"
+          ]
+        },
+        {
+          "name": "Perplexity",
+          "tagline": "AI-powered answer engine",
+          "description": "Perplexity combines the conversational abilities of LLMs with real-time web search to provide sourced, up-to-date answers. Unlike traditional chatbots, every response includes citations, making it ideal for research, fact-checking, and staying current on any topic.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $20/mo",
+          "specialty": "Real-time web search with cited, accurate answers",
+          "website": "https://perplexity.ai",
+          "rank": 4,
+          "preview": "https://www.perplexity.ai/og-card.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Real-time web search with cited, accurate answers"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Grok",
+          "tagline": "xAI's witty AI assistant",
+          "description": "Grok by xAI is an AI assistant with real-time access to information via the X platform. Known for its unfiltered personality and willingness to tackle edgy questions, Grok offers strong reasoning capabilities and is integrated directly into the X (Twitter) experience.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free with X account (limited), X Premium+ for full access",
+          "specialty": "Real-time information access via X with unfiltered responses",
+          "website": "https://grok.x.ai",
+          "rank": 5,
+          "preview": "https://x.ai/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "API and integration support",
+            "Real-time information access via x with unfiltered responses"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Microsoft Copilot",
+          "tagline": "AI assistant across Microsoft 365",
+          "description": "Microsoft Copilot integrates GPT-4 across Windows, Edge, Bing, and Office 365. It drafts emails in Outlook, creates presentations in PowerPoint, analyzes data in Excel, and provides a general AI assistant across the Microsoft ecosystem.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $20/mo, Microsoft 365 Copilot $30/mo per user",
+          "specialty": "Deep Microsoft 365 integration with enterprise AI",
+          "website": "https://copilot.microsoft.com",
+          "rank": 6,
+          "preview": "https://copilot.microsoft.com/static/cmc/images/meta-image.jpg",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Deep microsoft 365 integration with enterprise ai"
+          ],
+          "cons": [
+            "Output may need manual refinement",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Pi",
+          "tagline": "Your personal AI companion",
+          "description": "Pi by Inflection AI is designed as a personal AI companion — empathetic, conversational, and supportive. Unlike productivity-focused assistants, Pi excels at coaching, brainstorming, and being a thoughtful conversational partner.",
+          "isFree": true,
+          "hasFreeTier": true,
+          "pricing": "Free",
+          "specialty": "Empathetic personal AI with coaching abilities",
+          "website": "https://pi.ai",
+          "rank": 7,
+          "preview": "https://pi.ai/og-image.png",
+          "pros": [
+            "Completely free to use",
+            "Empathetic personal ai with coaching abilities",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Requires stable internet connection",
+            "Output may need manual refinement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "color": "#f59e0b",
+      "tools": [
+        {
+          "name": "BloombergGPT",
+          "tagline": "AI built for financial data",
+          "description": "BloombergGPT is a large language model specifically trained on Bloomberg's vast financial data sources. It outperforms general models on financial NLP tasks including sentiment analysis, named entity recognition, and financial question answering, while maintaining competitive general language abilities.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Available through Bloomberg Terminal subscription",
+          "specialty": "Financial NLP, sentiment analysis, and market intelligence",
+          "website": "https://www.bloomberg.com/company/values/tech-at-bloomberg/artificial-intelligence/",
+          "rank": 1,
+          "preview": "https://assets.bbhub.io/company/sites/51/2023/03/Bloomberg_GPT_Featured.png",
+          "pros": [
+            "Multilingual support",
+            "Financial nlp, sentiment analysis, and market intelligence",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Composer",
+          "tagline": "AI-powered trading strategies",
+          "description": "Composer lets you build, backtest, and execute algorithmic trading strategies using natural language. Describe your investment thesis in plain English, and Composer's AI translates it into an automated portfolio strategy with no coding required.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (paper trading), Premium $24.99/mo",
+          "specialty": "No-code algorithmic trading from natural language descriptions",
+          "website": "https://www.composer.trade",
+          "rank": 2,
+          "preview": "https://cdn.prod.website-files.com/635c4eeb78332f7971255095/64dc1cb3e0e55567e5e8e5f2_Composer-OG.png",
+          "pros": [
+            "Generous free tier available",
+            "Multilingual support",
+            "No coding skills required",
+            "No-code algorithmic trading from natural language descrip..."
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Mezzi",
+          "tagline": "AI financial copilot",
+          "description": "Mezzi is an AI-powered financial copilot that connects to your investment accounts and provides personalized portfolio analysis, tax optimization suggestions, and actionable insights. It helps investors make smarter decisions by analyzing their complete financial picture.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free basic analysis, Premium plans available",
+          "specialty": "Personalized portfolio analysis and tax optimization",
+          "website": "https://www.mezzi.com",
+          "rank": 3,
+          "preview": "https://cdn.prod.website-files.com/64ab95bb2efb9f363d9145be/69bbbb9c6e6362d63bddd257_Website%20preview%20image%20(2).png",
+          "pros": [
+            "Generous free tier available",
+            "Highly customizable output",
+            "Personalized portfolio analysis and tax optimization"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Datarails",
+          "tagline": "AI-powered FP&A platform",
+          "description": "Datarails uses AI to automate financial planning and analysis workflows. It consolidates data from spreadsheets and ERPs, automates reporting, and provides AI-driven forecasting and variance analysis for finance teams.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Custom enterprise pricing",
+          "specialty": "Financial planning automation and AI-powered forecasting",
+          "website": "https://www.datarails.com",
+          "rank": 4,
+          "preview": "https://www.datarails.com/wp-content/uploads/2026/02/The-AI-powered-FPA-solution-2-1024x647.png",
+          "pros": [
+            "Built for team collaboration",
+            "Financial planning automation and ai-powered forecasting",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Enterprise pricing not transparent"
+          ]
+        },
+        {
+          "name": "Alphasense",
+          "tagline": "AI market intelligence platform",
+          "description": "Alphasense uses AI and NLP to search and analyze financial documents, earnings calls, SEC filings, and expert research. It helps financial professionals surface critical insights faster from vast amounts of unstructured financial data.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Custom pricing based on use case",
+          "specialty": "Financial document search and market intelligence",
+          "website": "https://www.alpha-sense.com",
+          "rank": 5,
+          "preview": "https://cdn.sanity.io/images/ewv2vq7j/production/d032490807040a9143db481b37b983c677cc1ba1-2100x1400.png",
+          "pros": [
+            "Fast, real-time processing",
+            "Professional-grade results",
+            "Financial document search and market intelligence"
+          ],
+          "cons": [
+            "No free tier available",
+            "Enterprise pricing not transparent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image",
+      "name": "Image",
+      "color": "#ec4899",
+      "tools": [
+        {
+          "name": "Midjourney",
+          "tagline": "Premium AI art generation",
+          "description": "Midjourney creates stunning, highly aesthetic images from text prompts. Renowned for its artistic quality and style, it consistently produces images with a polished, professional look. V6 brought major improvements in prompt understanding, coherence, and photorealism.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Basic $10/mo, Standard $30/mo, Pro $60/mo, Mega $120/mo",
+          "specialty": "Highly aesthetic, artistic image generation with distinctive style",
+          "website": "https://www.midjourney.com",
+          "rank": 1,
+          "preview": "https://cdn.midjourney.com/e4aa4534-4160-4a84-8b8b-264248c30d83/0_0.webp",
+          "pros": [
+            "Professional-grade results",
+            "Highly aesthetic, artistic image generation with distinct...",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Premium plans can be expensive"
+          ]
+        },
+        {
+          "name": "DALL-E 3",
+          "tagline": "OpenAI's image generator",
+          "description": "DALL-E 3 by OpenAI is integrated directly into ChatGPT, making it the most accessible AI image generator. It excels at following detailed prompts accurately, rendering text within images, and producing creative compositions with high coherence.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Included with ChatGPT Plus ($20/mo) and via API",
+          "specialty": "Accurate prompt following and in-image text rendering",
+          "website": "https://openai.com/dall-e-3",
+          "rank": 2,
+          "preview": "https://images.openai.com/blob/5927e8dc-0c9d-4c64-b927-7a0d4b80083f/dall-e-3.jpg",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Accurate prompt following and in-image text rendering"
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Stable Diffusion 3",
+          "tagline": "Open-source image AI",
+          "description": "Stable Diffusion is the leading open-source image generation model. SD3 introduced a new architecture with improved quality and typography. Being open-source, it can be run locally, fine-tuned, and customized freely, powering a massive ecosystem of tools and extensions.",
+          "isFree": true,
+          "hasFreeTier": true,
+          "pricing": "Free (open source, run locally), API access via Stability AI",
+          "specialty": "Open-source, locally-runnable, highly customizable image generation",
+          "website": "https://stability.ai",
+          "rank": 3,
+          "preview": "http://static1.squarespace.com/static/6213c340453c3f502425776e/t/69dc368ec5c83b60b25c6a07/1775660945221/Homepage+Meta+Image.png?format=1500w",
+          "pros": [
+            "Completely free to use",
+            "Open-source and community-driven",
+            "API and integration support",
+            "Highly customizable output"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Ideogram 2.0",
+          "tagline": "AI images with perfect text",
+          "description": "Ideogram specializes in generating images with accurate, readable text -- a challenge that other AI image generators struggle with. Version 2.0 delivers significant quality improvements across the board, making it ideal for logos, posters, and text-heavy designs.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Basic $8/mo, Plus $20/mo, Pro $60/mo",
+          "specialty": "Accurate text rendering in generated images",
+          "website": "https://ideogram.ai",
+          "rank": 4,
+          "preview": "https://ideogram.ai/assets/images/ideogram-og.png",
+          "pros": [
+            "Generous free tier available",
+            "Accurate text rendering in generated images",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Usage limits on lower tiers"
+          ]
+        },
+        {
+          "name": "Flux",
+          "tagline": "Next-gen open image model",
+          "description": "Flux by Black Forest Labs (the original Stable Diffusion creators) is a powerful open image model that rivals closed-source alternatives. It offers excellent prompt adherence, photorealism, and flexibility, with multiple model variants for different quality and speed tradeoffs.",
+          "isFree": true,
+          "hasFreeTier": true,
+          "pricing": "Free (open weights), API access via partners",
+          "specialty": "High-quality open-source image generation with flexible model sizes",
+          "website": "https://blackforestlabs.ai",
+          "rank": 5,
+          "preview": "https://bfl.ai/opengraph-image-j8qpfc.png?47e2121a0eb4d5b0",
+          "pros": [
+            "Completely free to use",
+            "Fast, real-time processing",
+            "High-quality open-source image generation with flexible m..."
+          ],
+          "cons": [
+            "Requires stable internet connection",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Leonardo AI",
+          "tagline": "AI image platform for creators",
+          "description": "Leonardo AI offers fine-tuned image generation models, real-time canvas editing, and a texture generation pipeline for game assets. Its model training lets users create custom AI models tuned to their specific art style.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (150 tokens/day), Apprentice $12/mo, Artisan $30/mo",
+          "specialty": "Custom AI model training and game asset generation",
+          "website": "https://leonardo.ai",
+          "rank": 6,
+          "preview": "https://cdn.leonardo.ai/leonardo-og.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Highly customizable output",
+            "Custom ai model training and game asset generation"
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Adobe Firefly",
+          "tagline": "AI creativity from Adobe",
+          "description": "Adobe Firefly is trained exclusively on licensed and public domain content, making it commercially safe to use. Integrated into Photoshop, Illustrator, and Express, it offers generative fill, text effects, and image generation within Adobe workflows.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (25 credits/mo), Premium $10/mo",
+          "specialty": "Commercially safe AI image generation in Adobe tools",
+          "website": "https://firefly.adobe.com",
+          "rank": 7,
+          "preview": "https://firefly.adobe.com/img/og-image.jpg",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Commercially safe ai image generation in adobe tools"
+          ],
+          "cons": [
+            "Output may need manual refinement",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Playground AI",
+          "tagline": "Free AI image creation",
+          "description": "Playground AI offers a generous free tier for AI image generation with multiple models, real-time editing, and a community gallery. Its mixed editing mode combines AI generation with traditional image editing tools.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (500 images/day), Pro $15/mo",
+          "specialty": "Generous free AI image generation with editing tools",
+          "website": "https://playground.com",
+          "rank": 8,
+          "preview": "https://playground.com/og/default.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Generous free ai image generation with editing tools"
+          ],
+          "cons": [
+            "Requires stable internet connection",
+            "Output may need manual refinement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "color": "#06b6d4",
+      "tools": [
+        {
+          "name": "Suno",
+          "tagline": "Create full songs with AI",
+          "description": "Suno generates complete songs -- vocals, instruments, and lyrics -- from a simple text prompt. It can produce music across virtually any genre with surprisingly high quality. Users can specify style, mood, and lyrics, or let the AI handle everything.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Pro $10/mo, Premier $30/mo",
+          "specialty": "Full song generation with vocals, lyrics, and instrumentation",
+          "website": "https://suno.com",
+          "rank": 1,
+          "preview": "https://cdn-o.suno.com/meta-preview.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Full song generation with vocals, lyrics, and instrumenta...",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Udio",
+          "tagline": "AI music creation platform",
+          "description": "Udio creates full-length songs with studio-quality production from text descriptions. It excels at producing realistic vocals and complex musical arrangements, and supports extending and remixing generated tracks for creative control.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Standard $10/mo, Pro $30/mo",
+          "specialty": "Studio-quality AI music with realistic vocals and arrangements",
+          "website": "https://www.udio.com",
+          "rank": 2,
+          "preview": "https://imagedelivery.net/C9yUr1FL21Q6JwfYYh2ozQ/1647e9a2-47d6-4d95-5ae0-02bae7a44000/public",
+          "pros": [
+            "Generous free tier available",
+            "Professional-grade results",
+            "Studio-quality ai music with realistic vocals and arrange..."
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Steep learning curve for beginners"
+          ]
+        },
+        {
+          "name": "AIVA",
+          "tagline": "AI music composer",
+          "description": "AIVA (Artificial Intelligence Virtual Artist) specializes in composing emotional soundtracks and classical-style music. It's used by filmmakers, game developers, and content creators to generate royalty-free background music and orchestral compositions.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Standard $15/mo, Pro $49/mo",
+          "specialty": "Orchestral and soundtrack composition for media",
+          "website": "https://www.aiva.ai",
+          "rank": 3,
+          "preview": "https://www.aiva.ai/assets/img/workflows/create.png",
+          "pros": [
+            "Generous free tier available",
+            "Orchestral and soundtrack composition for media",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Soundraw",
+          "tagline": "AI music for creators",
+          "description": "Soundraw lets creators generate unique, royalty-free music by selecting genre, mood, and instruments. Unlike full-song generators, it focuses on customizable background music ideal for videos, podcasts, and commercial content.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free trial, Creator $19.99/mo, Artist $39.99/mo",
+          "specialty": "Customizable royalty-free background music for content creators",
+          "website": "https://soundraw.io",
+          "rank": 4,
+          "preview": "https://cdn.soundraw.io/soundraw_ogp_EN.png",
+          "pros": [
+            "Generous free tier available",
+            "Highly customizable output",
+            "Customizable royalty-free background music for content cr..."
+          ],
+          "cons": [
+            "Output may need manual refinement",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Mubert",
+          "tagline": "AI-generated streaming music",
+          "description": "Mubert generates endless streams of AI music in real-time. It's designed for content creators who need continuous, mood-appropriate music without copyright concerns. Mubert creates unique tracks on-the-fly based on your selected parameters.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier, Creator $14/mo, Business $39/mo",
+          "specialty": "Real-time generative music streaming and ambient soundscapes",
+          "website": "https://mubert.com",
+          "rank": 5,
+          "preview": "https://mubert.com/thumbnail.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Real-time generative music streaming and ambient soundscapes"
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Boomy",
+          "tagline": "Create and release AI songs instantly",
+          "description": "Boomy lets anyone create original songs in seconds and release them to streaming platforms like Spotify. No musical experience needed — pick a style, customize it, and monetize your music through their distribution network.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Creator $2.99/mo, Pro $9.99/mo",
+          "specialty": "AI music creation with instant streaming distribution",
+          "website": "https://boomy.com",
+          "rank": 6,
+          "preview": "https://assets.boomy.com/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Highly customizable output",
+            "Ai music creation with instant streaming distribution"
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Splash",
+          "tagline": "AI music for games and apps",
+          "description": "Splash provides AI music tools designed for games, apps, and interactive media. Its SDK generates adaptive music that responds to gameplay in real-time, plus a consumer app for creating original songs.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro plans for commercial use",
+          "specialty": "Adaptive AI music for games and interactive media",
+          "website": "https://www.splashmusic.com",
+          "rank": 7,
+          "preview": "https://cdn.prod.website-files.com/608b897871ccafc166c3d0f3/648bf8d8be88fa270a64423a_thumb2023.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Adaptive ai music for games and interactive media"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "Writing",
+      "color": "#10b981",
+      "tools": [
+        {
+          "name": "Jasper",
+          "tagline": "AI marketing content platform",
+          "description": "Jasper is an enterprise-focused AI writing platform designed for marketing teams. It offers brand voice customization, campaign workflows, and content generation across blog posts, social media, ads, and emails -- all aligned with your brand guidelines and style.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Creator $49/mo, Pro $69/mo, Business custom pricing",
+          "specialty": "Brand-consistent marketing content at scale",
+          "website": "https://www.jasper.ai",
+          "rank": 1,
+          "preview": "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6846454bda26628fcf51d54c_9650916b48ce089735bcc21cc8e43f2f_OpenGraph%20-%20Home.png",
+          "pros": [
+            "Generous free tier available",
+            "Built for team collaboration",
+            "Highly customizable output",
+            "Brand-consistent marketing content at scale"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Enterprise pricing not transparent"
+          ]
+        },
+        {
+          "name": "Copy.ai",
+          "tagline": "AI-powered copywriting",
+          "description": "Copy.ai helps businesses generate marketing copy, sales emails, blog content, and social media posts quickly. Its workflow automation features let teams build AI-powered content pipelines for consistent, high-volume content production.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Pro $49/mo, Enterprise custom",
+          "specialty": "Sales and marketing copy with workflow automation",
+          "website": "https://www.copy.ai",
+          "rank": 2,
+          "preview": "https://cdn.prod.website-files.com/628288c5cd3e8411b90a36a4/67111b6951504ebf1467be96_6708d064807b31c351b41284_share-og-image%20(1)-min.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Built for team collaboration",
+            "Sales and marketing copy with workflow automation"
+          ],
+          "cons": [
+            "Enterprise pricing not transparent",
+            "Usage limits on lower tiers"
+          ]
+        },
+        {
+          "name": "Writesonic",
+          "tagline": "AI writer and SEO tool",
+          "description": "Writesonic combines AI writing with SEO optimization, offering tools for blog posts, landing pages, and product descriptions. Its Chatsonic feature adds real-time web search to AI writing, helping create factually current content.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier, Individual $16/mo, Standard $79/mo",
+          "specialty": "SEO-optimized content with real-time web research",
+          "website": "https://writesonic.com",
+          "rank": 3,
+          "preview": "https://writesonic.com/opengraph-image",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Seo-optimized content with real-time web research"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Sudowrite",
+          "tagline": "AI for fiction writers",
+          "description": "Sudowrite is designed specifically for creative and fiction writing. Unlike business-focused tools, it helps novelists and storytellers with prose improvement, plot development, character creation, and overcoming writer's block while maintaining the author's unique voice.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Hobby $10/mo, Professional $25/mo, Max $100/mo",
+          "specialty": "Fiction and creative writing with voice-preserving assistance",
+          "website": "https://www.sudowrite.com",
+          "rank": 4,
+          "preview": "https://framerusercontent.com/assets/1k2TYC2YpFUOb9cH9JmDo6QyUp8.png",
+          "pros": [
+            "Generous free tier available",
+            "Fiction and creative writing with voice-preserving assist...",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Rytr",
+          "tagline": "Affordable AI writing assistant",
+          "description": "Rytr is a budget-friendly AI writing tool that supports 30+ languages and 40+ use cases. It offers tone selection, plagiarism checking, and a built-in editor, making it accessible for freelancers and small businesses who need quality content on a budget.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Saver $9/mo, Unlimited $29/mo",
+          "specialty": "Affordable multilingual content generation",
+          "website": "https://rytr.me",
+          "rank": 5,
+          "preview": "https://rytr.me/images/hero.gif",
+          "pros": [
+            "Generous free tier available",
+            "Multilingual support",
+            "Affordable multilingual content generation"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Can be resource-intensive for large projects"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "color": "#8b5cf6",
+      "tools": [
+        {
+          "name": "Notion AI",
+          "tagline": "AI-powered workspace",
+          "description": "Notion AI is integrated directly into the Notion workspace, letting you write, summarize, brainstorm, and analyze content within your docs, databases, and projects. It can auto-fill database properties, generate action items from meeting notes, and answer questions about your workspace content.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Notion free tier + AI add-on $10/mo per member",
+          "specialty": "AI-enhanced docs, databases, and project management",
+          "website": "https://www.notion.so/product/ai",
+          "rank": 1,
+          "preview": "https://www.notion.com/front-static/meta/custom-agents-og.png",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Ai-enhanced docs, databases, and project management"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Gamma",
+          "tagline": "AI-powered presentations",
+          "description": "Gamma generates beautiful presentations, documents, and webpages from a simple text prompt. Instead of wrestling with slide layouts, you describe your content and Gamma creates polished, professional decks with smart layouts, images, and formatting.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Plus $10/mo, Pro $20/mo",
+          "specialty": "Instant professional presentations from text descriptions",
+          "website": "https://gamma.app",
+          "rank": 2,
+          "preview": "https://static.gamma.app/images/gamma-banner-8d71c455.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Professional-grade results",
+            "Instant professional presentations from text descriptions"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Beautiful.ai",
+          "tagline": "Smart presentation design",
+          "description": "Beautiful.ai uses AI to automatically handle slide design and layout as you add content. Every element you add is automatically sized, positioned, and animated according to design best practices, ensuring professional-looking presentations without design skills.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free trial, Pro $12/mo, Team $40/mo per user",
+          "specialty": "Automated slide design with real-time layout intelligence",
+          "website": "https://www.beautiful.ai",
+          "rank": 3,
+          "preview": "https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/679345319c7f2f3d2301228b_Open%20Graph_final.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Professional-grade results",
+            "Automated slide design with real-time layout intelligence"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Otter.ai",
+          "tagline": "AI meeting transcription",
+          "description": "Otter.ai provides real-time transcription and summarization of meetings, lectures, and conversations. It automatically joins your Zoom, Google Meet, and Teams calls, generates notes with action items, and makes everything searchable across your organization.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Pro $16.99/mo, Business $30/mo per user",
+          "specialty": "Real-time meeting transcription with automated summaries",
+          "website": "https://otter.ai",
+          "rank": 4,
+          "preview": "https://cdn.prod.website-files.com/618e9316785b3582a5178502/67dd5a945aeed07e329d4e10_og-image-otter-optim.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Built for team collaboration",
+            "Real-time meeting transcription with automated summaries"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Reclaim.ai",
+          "tagline": "AI calendar management",
+          "description": "Reclaim.ai uses AI to automatically schedule and protect time for tasks, habits, meetings, and breaks on your calendar. It optimizes your schedule in real-time, defending focus time while adapting to changes and priorities throughout the week.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier, Starter $10/mo, Business $15/mo per user",
+          "specialty": "AI-driven calendar optimization and time management",
+          "website": "https://reclaim.ai",
+          "rank": 5,
+          "preview": "https://cdn.prod.website-files.com/5ec848ec2b50b6cfae06f6cc/65e2563b7c0658aed71828ac_open_graph_final.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Ai-driven calendar optimization and time management"
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Taskade",
+          "tagline": "AI-powered project management",
+          "description": "Taskade combines project management with AI agents that can automate workflows, generate content, and manage tasks autonomously. It offers AI-powered docs, mind maps, and chat in a unified workspace.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $8/mo per user",
+          "specialty": "AI agents for automated project management",
+          "website": "https://www.taskade.com",
+          "rank": 6,
+          "preview": "https://www.taskade.com/static_images/taskade-genesis-mascot-2026.png",
+          "pros": [
+            "Generous free tier available",
+            "Ai agents for automated project management",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Can be resource-intensive for large projects",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Mem",
+          "tagline": "AI-powered knowledge base",
+          "description": "Mem uses AI to organize your notes, meetings, and knowledge automatically. It surfaces relevant information when you need it, connects related ideas, and generates drafts from your accumulated knowledge.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Premium $14.99/mo, Team $19.99/mo",
+          "specialty": "Self-organizing AI knowledge management",
+          "website": "https://mem.ai",
+          "rank": 7,
+          "preview": "https://storage.googleapis.com/mem-public-assets/sq-f.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Self-organizing ai knowledge management",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "OrchestrAI",
+          "tagline": "Command your entire AI workforce from one dashboard",
+          "description": "OrchestrAI is a centralized platform for managing, orchestrating, and monitoring multiple AI agents and tools across your organization. It provides a unified control plane where you can chain AI workflows, set permissions, allocate resources, and track performance metrics for dozens of connected AI services. Built for teams that rely on a diverse AI stack and need a single source of truth.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free for up to 3 agents; Pro $49/mo for 25 agents; Enterprise custom pricing",
+          "specialty": "Multi-agent orchestration and AI workflow automation",
+          "website": "https://orchestrai.io",
+          "rank": 8,
+          "preview": "https://orchestrai.io/og-card.png",
+          "pros": [
+            "Supports 50+ AI integrations including OpenAI, Anthropic, Gemini, and open-source models",
+            "Visual drag-and-drop workflow builder for chaining AI tasks",
+            "Granular access controls and usage monitoring per agent",
+            "Real-time logging and cost tracking across all connected services"
+          ],
+          "cons": [
+            "Steep learning curve for complex multi-agent pipelines",
+            "Free tier is limited to basic orchestration with no scheduling",
+            "Some niche AI tools require custom connector setup"
+          ]
+        },
+        {
+          "name": "Nexus AI Hub",
+          "tagline": "One brain to rule them all",
+          "description": "Nexus AI Hub acts as a meta-AI layer that sits on top of your existing AI tools, routing tasks to the best model for the job automatically. It evaluates prompt complexity, cost, and latency to intelligently delegate work across GPT, Claude, Mistral, and other providers. Teams can define routing rules, fallback chains, and approval workflows to maintain full control over AI-driven operations.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free for 500 routed requests/mo; Growth $29/mo for 10,000 requests; Scale $99/mo unlimited",
+          "specialty": "Intelligent AI routing and model management",
+          "website": "https://nexusaihub.com",
+          "rank": 9,
+          "preview": "https://nexusaihub.com/wp-content/uploads/2024/09/cropped-NexusAI_pg1.png",
+          "pros": [
+            "Smart routing automatically picks the optimal model for each task",
+            "Significant cost savings by avoiding over-powered models on simple prompts",
+            "Built-in A/B testing to compare model outputs side by side",
+            "API-first design makes it easy to integrate into existing workflows"
+          ],
+          "cons": [
+            "Adds a small latency overhead due to the routing evaluation layer",
+            "Advanced routing logic requires YAML configuration knowledge",
+            "Limited built-in analytics on the free plan"
+          ]
+        },
+        {
+          "name": "AgentForge",
+          "tagline": "Deploy, monitor, and govern autonomous AI agents at scale",
+          "description": "AgentForge is an enterprise-grade platform for building, deploying, and managing autonomous AI agents that can execute complex multi-step tasks. It offers a robust governance framework with guardrails, human-in-the-loop checkpoints, and audit trails for every agent action. Whether you need agents handling customer support, data pipelines, or code generation, AgentForge keeps them accountable and under control.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Starter $79/mo for 10 agents; Business $199/mo for 50 agents; Enterprise custom",
+          "specialty": "Autonomous AI agent deployment and governance",
+          "website": "https://agentforge.ai",
+          "rank": 10,
+          "preview": "",
+          "pros": [
+            "Comprehensive governance with guardrails, kill switches, and human approval gates",
+            "Pre-built agent templates for common business workflows",
+            "Detailed audit logs and compliance reporting for every agent decision",
+            "Supports both cloud-hosted and self-hosted agent deployments"
+          ],
+          "cons": [
+            "No free tier makes it hard to evaluate before committing",
+            "Primarily enterprise-focused with features that may overwhelm solo users",
+            "Agent debugging can be complex when workflows involve many chained steps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness",
+      "color": "#ef4444",
+      "tools": [
+        {
+          "name": "Fitbod",
+          "tagline": "Your AI-powered personal trainer",
+          "description": "Fitbod uses AI trained on real workout data to generate personalized strength training plans that adapt based on your logged performance, available equipment, and recovery status. It automatically adjusts reps, sets, and weight using progressive overload principles, making it especially strong for gym-based muscle building.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "3 free workouts + 7-day trial, then $15.99/mo or $95.99/yr",
+          "specialty": "AI-driven personalized strength training and progressive overload",
+          "website": "https://fitbod.me",
+          "rank": 1,
+          "preview": "https://cdn.fitbod.me/images/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Highly customizable output",
+            "Ai-driven personalized strength training and progressive ..."
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Welling",
+          "tagline": "AI calorie counter and diet coach",
+          "description": "Welling is an AI-first food tracker and diet coach. Snap a photo of your meal or describe it in plain text, and the AI instantly estimates calories and macros without searching a food database. It provides personalized daily targets and coaching guidance.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (AI meal logging + targets), Premium ~$20/mo or ~$100/yr",
+          "specialty": "AI photo and text-based food logging with instant macro estimation",
+          "website": "https://www.welling.ai",
+          "rank": 2,
+          "preview": "http://static1.squarespace.com/static/65518d2324379568c4915d70/t/66a3ebd046a52e26f427daf4/1773998028930/welling_social.png?format=1500w",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Highly customizable output",
+            "Ai photo and text-based food logging with instant macro e..."
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "MyFitnessPal",
+          "tagline": "The world's largest nutrition database, now with AI",
+          "description": "MyFitnessPal is the most established calorie and nutrition tracking app, now enhanced with AI photo recognition and ChatGPT Health integration. It boasts the world's largest food database, barcode scanning, and comprehensive macro and calorie tracking with social features.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (with ads), Premium $19.99/mo or $79.99/yr, Premium+ $24.99/mo",
+          "specialty": "Comprehensive nutrition tracking with the world's largest food database",
+          "website": "https://www.myfitnesspal.com",
+          "rank": 3,
+          "preview": "https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-phone.webp&w=750&q=75",
+          "pros": [
+            "Generous free tier available",
+            "Comprehensive nutrition tracking with the world's largest...",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "FitnessAI",
+          "tagline": "Get stronger, faster with AI",
+          "description": "FitnessAI's algorithm is trained on data from over 40,000 weightlifters across 3 years -- one of the largest weightlifting datasets in the world. It calculates the optimal set, rep, and weight combination for every exercise to maximize your strength gains.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "$9.99-$19.99/mo, Annual from $59.99-$129.99/yr",
+          "specialty": "Data-driven weightlifting optimization using massive lifting datasets",
+          "website": "https://www.fitnessai.com",
+          "rank": 4,
+          "preview": "https://cdn.prod.website-files.com/5c34b1d990599d63c8b3e892/699cd35ec40e48ec88dc184c_bg-img-creators-page-hero.webp",
+          "pros": [
+            "Data-driven weightlifting optimization using massive lift...",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Premium plans can be expensive"
+          ]
+        },
+        {
+          "name": "Strongr Fastr",
+          "tagline": "AI nutrition, workouts, and meal planner",
+          "description": "Strongr Fastr combines AI-generated workout routines with personalized meal planning in a single platform. It matches you with a training routine based on your goals, schedule, and equipment, while generating customized meal plans with macro targets.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free plan available, Pro $9.99/mo or $79.99/yr",
+          "specialty": "Combined AI workout programming and meal planning",
+          "website": "https://www.strongrfastr.com",
+          "rank": 5,
+          "preview": "https://d2jbk7d41q2u2w.cloudfront.net/FB%2BK.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Highly customizable output",
+            "Combined ai workout programming and meal planning"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Whoop",
+          "tagline": "AI recovery and strain tracking",
+          "description": "Whoop uses AI to analyze heart rate variability, sleep quality, and daily strain to provide personalized recovery scores and training recommendations. Its AI coach adapts advice based on your physiological data.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "$30/mo (includes wearable), Annual $239",
+          "specialty": "AI-driven physiological recovery and strain optimization",
+          "website": "https://www.whoop.com",
+          "rank": 6,
+          "preview": "https://images.ctfassets.net/rbzqg6pelgqa/3CCQWI1KRdKsfMkGIgNfls/1db1bc98dbbca4f4c288cca02729e964/Not_a_whoop_member_image__1_.png",
+          "pros": [
+            "Highly customizable output",
+            "Ai-driven physiological recovery and strain optimization",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Premium plans can be expensive"
+          ]
+        },
+        {
+          "name": "Freeletics",
+          "tagline": "AI bodyweight training coach",
+          "description": "Freeletics uses AI to create personalized bodyweight workout plans that adapt based on your performance and feedback. No gym needed — it generates HIIT and strength workouts using just your body weight.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Coach $34.99/quarter",
+          "specialty": "Adaptive AI bodyweight and HIIT training",
+          "website": "https://www.freeletics.com",
+          "rank": 7,
+          "preview": "https://www.freeletics.com/images/og/freeletics-og.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Highly customizable output",
+            "Adaptive ai bodyweight and hiit training"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Limited offline functionality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "name": "School",
+      "color": "#f97316",
+      "tools": [
+        {
+          "name": "Khanmigo",
+          "tagline": "AI tutor by Khan Academy",
+          "description": "Khanmigo is a GPT-4-powered AI tutor built by Khan Academy, serving over 18 million students globally. Instead of giving direct answers, it uses the Socratic method to guide students through problems step by step. Studies show students using Khanmigo achieve 34% greater learning gains compared to traditional tutoring.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free for teachers, $4/mo or $44/yr for learners",
+          "specialty": "Socratic AI tutoring across math, science, humanities, and test prep",
+          "website": "https://www.khanmigo.ai",
+          "rank": 1,
+          "preview": "https://cdn.prod.website-files.com/659ee90e075c502b5cc49dae/6618517343d5ef21ac0ec603_Frame%20625094.png",
+          "pros": [
+            "Generous free tier available",
+            "Socratic ai tutoring across math, science, humanities, an...",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Google NotebookLM",
+          "tagline": "AI-powered research and study assistant",
+          "description": "NotebookLM lets students upload course materials (PDFs, Google Docs, YouTube videos, websites) and then ask questions, generate summaries, create study guides, and produce flashcards with inline citations. It can also auto-generate podcast-style audio discussions and animated video explainers from your content.",
+          "isFree": true,
+          "hasFreeTier": true,
+          "pricing": "Free (100 notebooks, 50 sources each), Plus $7.99/mo, Pro $19.99/mo",
+          "specialty": "Source-grounded research with citations, audio and video explainers",
+          "website": "https://notebooklm.google",
+          "rank": 2,
+          "preview": "https://notebooklm.google/_/static/branding/v4/og/notebook_lm_share.png",
+          "pros": [
+            "Completely free to use",
+            "Source-grounded research with citations, audio and video ...",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "Requires stable internet connection",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Quizlet",
+          "tagline": "AI flashcards, tests, and study guides",
+          "description": "Quizlet has evolved from a flashcard platform into a full AI study suite. Its Q-Chat AI tutor uses the Socratic method, and its AI engine can turn uploaded notes, slides, or PDFs into structured flashcards, practice exams with customizable difficulty, and study guides.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Plus $7.99/mo or $35.99/yr",
+          "specialty": "AI-generated flashcards, practice tests, and Socratic tutoring",
+          "website": "https://quizlet.com",
+          "rank": 3,
+          "preview": "https://assets.quizlet.com/a/j/dist/i/share/quizlet-og.png",
+          "pros": [
+            "Generous free tier available",
+            "Highly customizable output",
+            "Ai-generated flashcards, practice tests, and socratic tut..."
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "StudyFetch",
+          "tagline": "The top AI learning platform",
+          "description": "StudyFetch uses its AI assistant Spark.E to transform any uploaded study material into interactive study sets, flashcards, practice tests, and quizzes. Its Live Lecture feature captures and processes notes in real time, and the AI adapts to your study patterns.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free plan (limited), Base $7.99/mo, Premium $11.99/mo",
+          "specialty": "Real-time lecture capture and adaptive AI study set generation",
+          "website": "https://www.studyfetch.com",
+          "rank": 4,
+          "preview": "https://www.studyfetch.com/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Real-time lecture capture and adaptive ai study set gener..."
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Grammarly",
+          "tagline": "AI writing assistant for every student",
+          "description": "Grammarly is the most widely adopted AI writing assistant in education. Beyond grammar and spelling, it provides AI-powered sentence rewriting, tone detection, plagiarism checking, and 100 free AI prompts per month. Over 3,000 universities provide free Grammarly Pro access to students.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (basics), Pro $12/mo billed annually, student discounts up to 50%",
+          "specialty": "AI writing assistance, grammar checking, and plagiarism detection",
+          "website": "https://www.grammarly.com",
+          "rank": 5,
+          "preview": "https://static.grammarly.com/assets/files/6c884c17e874eab417163b965cf84ea2/open-graph-image-24-default.png",
+          "pros": [
+            "Generous free tier available",
+            "Ai writing assistance, grammar checking, and plagiarism d...",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "Requires stable internet connection",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Photomath",
+          "tagline": "AI math problem solver",
+          "description": "Photomath lets students snap a photo of any math problem and get step-by-step solutions instantly. It covers arithmetic through calculus, showing multiple solution methods and animated explanations.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (basic), Plus $9.99/mo",
+          "specialty": "Camera-based math solving with step-by-step explanations",
+          "website": "https://photomath.com",
+          "rank": 6,
+          "preview": "https://lh3.googleusercontent.com/ixDnQdZmvXyRbkWcSsccWiu6P4-GXljK9_uAxlYiLQCTNjGQnoVlbf0ok0OktMTcI4M7TgONNd4UMMk4WOFsupLiUv7JAiLNpdM=e365-pa-nu-w1200",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Camera-based math solving with step-by-step explanations"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Duolingo Max",
+          "tagline": "AI-powered language learning",
+          "description": "Duolingo Max adds GPT-4 powered features — Explain My Answer gives personalized grammar explanations, and Roleplay lets you practice conversations with AI characters in real-world scenarios.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Super $7/mo, Max $14/mo",
+          "specialty": "AI-enhanced language learning with conversation practice",
+          "website": "https://www.duolingo.com",
+          "rank": 7,
+          "preview": "https://www.duolingo.com/images/facebook/duo-08523a2.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Multilingual support",
+            "Highly customizable output",
+            "Ai-enhanced language learning with conversation practice"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3d",
+      "name": "3D",
+      "color": "#f472b6",
+      "tools": [
+        {
+          "name": "Meshy",
+          "tagline": "AI 3D model generator",
+          "description": "Meshy generates textured 3D models from text prompts or images in minutes. It supports PBR textures, multiple art styles, and exports to all major 3D formats. Used by game developers and 3D artists to rapidly prototype assets.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Pro $20/mo, Max $60/mo",
+          "specialty": "Text and image to textured 3D model generation",
+          "website": "https://www.meshy.ai",
+          "rank": 1,
+          "preview": "https://cdn.meshy.ai/landing-assets/og-images/website_og.webp",
+          "pros": [
+            "Generous free tier available",
+            "API and integration support",
+            "Text and image to textured 3d model generation"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Usage limits on lower tiers"
+          ]
+        },
+        {
+          "name": "Tripo AI",
+          "tagline": "Instant 3D from any input",
+          "description": "Tripo AI creates high-quality 3D models from text descriptions, single images, or multi-view photos in under 10 seconds. Its speed and quality make it one of the fastest 3D generation tools available.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $10/mo",
+          "specialty": "Ultra-fast 3D model generation from text and images",
+          "website": "https://www.tripo3d.ai",
+          "rank": 2,
+          "preview": "https://www.tripo3d.ai/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "High-resolution output quality",
+            "Fast, real-time processing",
+            "Ultra-fast 3d model generation from text and images"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Spline AI",
+          "tagline": "3D design meets AI",
+          "description": "Spline is a browser-based 3D design tool with AI generation built in. Create 3D scenes, animations, and interactive experiences using text prompts, then export to web, apps, or games.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $9/mo, Team $18/mo",
+          "specialty": "Browser-based 3D design with AI-assisted creation",
+          "website": "https://spline.design",
+          "rank": 3,
+          "preview": "https://spline.design/_next/static/media/spline_image_banner.77c2eb63.png",
+          "pros": [
+            "Generous free tier available",
+            "Works entirely in the browser",
+            "Browser-based 3d design with ai-assisted creation"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Kaedim",
+          "tagline": "Turn 2D images into 3D models",
+          "description": "Kaedim converts 2D images and concept art into production-ready 3D models. It combines AI generation with human quality checks to deliver clean, game-ready meshes with proper topology and UV maps.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free trial, plans from $149/mo",
+          "specialty": "Production-quality 3D from 2D concept art",
+          "website": "https://www.kaedim3d.com",
+          "rank": 4,
+          "preview": "https://kaedim3d.com/opengraph-image.png?1d7674bc16ebb20a",
+          "pros": [
+            "Generous free tier available",
+            "Professional-grade results",
+            "Production-quality 3d from 2d concept art"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "CSM AI",
+          "tagline": "AI-powered 3D world creation",
+          "description": "CSM (Common Sense Machines) generates interactive 3D worlds and objects from images, text, or sketches. Its models understand physical properties and can create entire scenes with proper lighting and physics.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro plans from $20/mo",
+          "specialty": "3D world and scene generation with physics understanding",
+          "website": "https://www.csm.ai",
+          "rank": 5,
+          "preview": "https://www.csm.ai/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "3d world and scene generation with physics understanding",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "name": "Voice",
+      "color": "#14b8a6",
+      "tools": [
+        {
+          "name": "ElevenLabs",
+          "tagline": "Ultra-realistic AI voice synthesis",
+          "description": "ElevenLabs produces the most human-sounding AI speech available. Its voice cloning needs only seconds of audio to replicate any voice with emotional nuance, breathing patterns, and natural pacing.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (10k chars/mo), Starter $5/mo, Creator $22/mo, Pro $99/mo",
+          "specialty": "Hyper-realistic voice cloning and multilingual text-to-speech",
+          "website": "https://elevenlabs.io",
+          "rank": 1,
+          "preview": "https://elevenlabs.io/cover.png",
+          "pros": [
+            "Generous free tier available",
+            "Multilingual support",
+            "Hyper-realistic voice cloning and multilingual text-to-sp..."
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "PlayHT",
+          "tagline": "AI voice generator for creators",
+          "description": "PlayHT offers ultra-realistic text-to-speech with voice cloning capabilities. It supports 800+ AI voices across 140+ languages and can clone any voice from a 30-second sample.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Creator $31.20/mo, Pro $99/mo",
+          "specialty": "Multilingual AI voices with instant voice cloning",
+          "website": "https://play.ht",
+          "rank": 2,
+          "preview": "https://play.ht/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "High-resolution output quality",
+            "Fast, real-time processing",
+            "Multilingual support"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Usage limits on lower tiers"
+          ]
+        },
+        {
+          "name": "Resemble AI",
+          "tagline": "Enterprise voice cloning platform",
+          "description": "Resemble AI provides enterprise-grade voice cloning with real-time generation, emotion control, and language dubbing. Used by media companies and game studios for scalable voice production.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (limited), Pay-as-you-go from $0.006/sec",
+          "specialty": "Enterprise voice cloning with emotion control",
+          "website": "https://www.resemble.ai",
+          "rank": 3,
+          "preview": "https://cdn.prod.website-files.com/69bc3de63d285e297507b3ef/69e17438fd97a84522288776_5d699e328d580edfe2a53aac2ff01057_resemble-ograph-0326.avif",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Built for team collaboration",
+            "Multilingual support"
+          ],
+          "cons": [
+            "Usage limits on lower tiers",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Speechify",
+          "tagline": "Listen to anything with AI voices",
+          "description": "Speechify converts any text — articles, PDFs, emails, books — into natural-sounding audio. Its AI voices read content at adjustable speeds, making it popular for productivity and accessibility.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Premium $11.58/mo",
+          "specialty": "Text-to-speech reader for documents and web content",
+          "website": "https://speechify.com",
+          "rank": 4,
+          "preview": "https://website.cdn.speechify.com/speechify-og-image.jpg?quality=95",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Text-to-speech reader for documents and web content"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "WellSaid Labs",
+          "tagline": "Studio-quality AI voiceover",
+          "description": "WellSaid Labs creates broadcast-quality AI voiceovers for corporate training, marketing videos, and eLearning. Its voices are trained with professional voice actors and designed for enterprise use cases.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free trial, plans from $44/mo",
+          "specialty": "Professional AI voiceover for enterprise content",
+          "website": "https://wellsaidlabs.com",
+          "rank": 5,
+          "preview": "https://wellsaidlabs.com/wp-content/uploads/2023/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Built for team collaboration",
+            "Professional-grade results",
+            "Professional ai voiceover for enterprise content"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "color": "#6366f1",
+      "tools": [
+        {
+          "name": "Consensus",
+          "tagline": "AI-powered academic search",
+          "description": "Consensus uses AI to search through 200M+ scientific papers and extract findings. Ask a research question in plain language and get evidence-based answers with citations to peer-reviewed studies.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Premium $8.99/mo, Team $149/mo",
+          "specialty": "Evidence-based answers from scientific literature",
+          "website": "https://consensus.app",
+          "rank": 1,
+          "preview": "https://consensus.app/images/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Multilingual support",
+            "Evidence-based answers from scientific literature"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Elicit",
+          "tagline": "AI research assistant",
+          "description": "Elicit automates research workflows — finding papers, extracting data, summarizing findings, and synthesizing results across studies. It handles systematic literature reviews that would take weeks in hours.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (10 papers/mo), Plus $10/mo, Team $25/mo",
+          "specialty": "Automated systematic literature reviews and data extraction",
+          "website": "https://elicit.com",
+          "rank": 2,
+          "preview": "https://elicit.com/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Automated systematic literature reviews and data extraction",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Semantic Scholar",
+          "tagline": "AI-powered paper discovery",
+          "description": "Semantic Scholar by the Allen Institute uses AI to analyze millions of papers and surface the most relevant research. Its TLDR feature auto-summarizes papers, and its citation analysis reveals research impact and trends.",
+          "isFree": true,
+          "hasFreeTier": true,
+          "pricing": "Free",
+          "specialty": "AI paper summarization and citation impact analysis",
+          "website": "https://www.semanticscholar.org",
+          "rank": 3,
+          "preview": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
+          "pros": [
+            "Completely free to use",
+            "Ai paper summarization and citation impact analysis",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Connected Papers",
+          "tagline": "Visual paper exploration",
+          "description": "Connected Papers creates interactive visual graphs of related academic papers. Enter one paper and see its connections to prior and derivative works, making it easy to explore a research field visually.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier (5 graphs/mo), Academic $3/mo, Pro $6/mo",
+          "specialty": "Visual research paper relationship mapping",
+          "website": "https://www.connectedpapers.com",
+          "rank": 4,
+          "preview": "https://www.connectedpapers.com/share-preview-img.png",
+          "pros": [
+            "Generous free tier available",
+            "Visual research paper relationship mapping",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Scite",
+          "tagline": "Smart citation analysis",
+          "description": "Scite analyzes how papers cite each other — whether citations support, contrast, or simply mention findings. This citation context helps researchers evaluate the reliability and impact of research claims.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Student $10/mo, Researcher $20/mo",
+          "specialty": "Citation context analysis (supporting vs contrasting)",
+          "website": "https://scite.ai",
+          "rank": 5,
+          "preview": "http://image.thum.io/get/ogImage/https://scite.ai?bannerClosed=true&amp;v=2",
+          "pros": [
+            "Generous free tier available",
+            "Citation context analysis (supporting vs contrasting)",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "Occasional inconsistency in results",
+            "Requires stable internet connection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "color": "#f43f5e",
+      "tools": [
+        {
+          "name": "Canva AI",
+          "tagline": "AI-powered design for everyone",
+          "description": "Canva AI brings Magic Studio tools — text-to-image, background remover, Magic Eraser, AI presentations, and brand-consistent design generation — to the world's most popular design platform, used by over 170 million people.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $13/mo, Teams $10/mo per person",
+          "specialty": "AI-enhanced graphic design accessible to non-designers",
+          "website": "https://www.canva.com",
+          "rank": 1,
+          "preview": "https://static.canva.com/web/images/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Professional-grade results",
+            "Ai-enhanced graphic design accessible to non-designers"
+          ],
+          "cons": [
+            "Output may need manual refinement",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Figma AI",
+          "tagline": "AI-assisted product design",
+          "description": "Figma AI adds intelligent features to the leading product design tool — auto-layout suggestions, content generation, component search, and AI-powered prototyping that turns descriptions into interactive designs.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Professional $15/mo, Organization $45/mo",
+          "specialty": "AI-enhanced product and UI/UX design workflows",
+          "website": "https://www.figma.com",
+          "rank": 2,
+          "preview": "https://cdn.sanity.io/images/599r6htc/regionalized/342e17642c7afa81206490b0dd21c3e5724ae040-2400x1260.png?w=1200&amp;q=70&amp;fit=max&amp;auto=format",
+          "pros": [
+            "Generous free tier available",
+            "Ai-enhanced product and ui/ux design workflows",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "Limited offline functionality",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Looka",
+          "tagline": "AI logo and brand kit generator",
+          "description": "Looka generates professional logos and complete brand identity kits from a few prompts about your business. Get hundreds of logo options, then customize colors, fonts, and layouts to create a cohesive brand.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free to generate, Basic $20 one-time, Premium $65 one-time",
+          "specialty": "AI logo design and brand identity generation",
+          "website": "https://looka.com",
+          "rank": 3,
+          "preview": "https://cdn.logojoy.com/wp-content/uploads/og-image.png",
+          "pros": [
+            "Generous free tier available",
+            "Highly customizable output",
+            "Professional-grade results",
+            "Ai logo design and brand identity generation"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Photoroom",
+          "tagline": "AI photo editing in seconds",
+          "description": "Photoroom removes backgrounds, creates product photos, and generates marketing visuals instantly using AI. Used by millions of ecommerce sellers to create professional product images without a photo studio.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $13/mo, Business $29/mo",
+          "specialty": "AI product photography and background removal",
+          "website": "https://www.photoroom.com",
+          "rank": 4,
+          "preview": "https://a.storyblok.com/f/191576/2768x1244/70240ce23c/screenshot-2024-04-03-at-14-09-16.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Professional-grade results",
+            "Ai product photography and background removal"
+          ],
+          "cons": [
+            "Output may need manual refinement",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Vizcom",
+          "tagline": "AI industrial design rendering",
+          "description": "Vizcom turns rough sketches into photorealistic product renders in real-time. Industrial designers draw concepts by hand and Vizcom generates polished renders with materials, lighting, and environments.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free tier available, Pro $25/mo, Team $50/mo",
+          "specialty": "Sketch-to-render for industrial and product design",
+          "website": "https://www.vizcom.ai",
+          "rank": 5,
+          "preview": "https://cdn.prod.website-files.com/68da69e18c8988d039a9f6fe/694b256896dd559dad1f8296_Generic_OpenGraph_1200x630.png",
+          "pros": [
+            "Generous free tier available",
+            "Fast, real-time processing",
+            "Sketch-to-render for industrial and product design"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Occasional inconsistency in results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing",
+      "color": "#84cc16",
+      "tools": [
+        {
+          "name": "AdCreative.ai",
+          "tagline": "AI-generated ad creatives",
+          "description": "AdCreative.ai generates high-converting ad creatives, banners, and social media posts using AI trained on millions of high-performing ads. It scores each creative for predicted conversion rate before you spend a dollar on ads.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free trial, Starter $29/mo, Premium $59/mo",
+          "specialty": "Conversion-optimized ad creative generation",
+          "website": "https://www.adcreative.ai",
+          "rank": 1,
+          "preview": "https://cdn.prod.website-files.com/661ce890f68a1d352ebbed35/6798994af847e3d5f12f2e3f_Home.png",
+          "pros": [
+            "Generous free tier available",
+            "Conversion-optimized ad creative generation",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Synthesia",
+          "tagline": "AI video with virtual presenters",
+          "description": "Synthesia creates professional videos with AI avatars that speak any script in 130+ languages. No cameras, actors, or studios needed — used by 50,000+ companies for training, marketing, and internal communications.",
+          "isFree": false,
+          "hasFreeTier": true,
+          "pricing": "Free demo, Starter $22/mo, Creator $67/mo, Enterprise custom",
+          "specialty": "AI avatar video production at scale",
+          "website": "https://www.synthesia.io",
+          "rank": 2,
+          "preview": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/67dad5d5c238a51c2327e203_OG-Image_2025.jpg",
+          "pros": [
+            "Generous free tier available",
+            "Multilingual support",
+            "Professional-grade results",
+            "Ai avatar video production at scale"
+          ],
+          "cons": [
+            "Premium plans can be expensive",
+            "Enterprise pricing not transparent"
+          ]
+        },
+        {
+          "name": "Surfer SEO",
+          "tagline": "AI-powered SEO optimization",
+          "description": "Surfer SEO uses AI to analyze top-ranking pages and generate content guidelines for any keyword. Its AI writer creates SEO-optimized articles, and its audit tool identifies on-page improvements to boost rankings.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Essential $89/mo, Scale $129/mo, Enterprise custom",
+          "specialty": "AI content optimization for search engine rankings",
+          "website": "https://surferseo.com",
+          "rank": 3,
+          "preview": "https://assets.surferseo.art/webflow-scripts/assets/og/basic.jpg",
+          "pros": [
+            "Ai content optimization for search engine rankings",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Premium plans can be expensive",
+            "Enterprise pricing not transparent"
+          ]
+        },
+        {
+          "name": "Persado",
+          "tagline": "AI marketing language platform",
+          "description": "Persado uses AI to generate and optimize marketing language — email subject lines, ad copy, push notifications — based on what motivates specific audiences to take action. Used by major brands like JPMorgan and Marks & Spencer.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Enterprise pricing (contact sales)",
+          "specialty": "AI-optimized marketing language generation",
+          "website": "https://www.persado.com",
+          "rank": 4,
+          "preview": "https://www.persado.com/wp-content/uploads/persado-og.png",
+          "pros": [
+            "Multilingual support",
+            "Ai-optimized marketing language generation",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Enterprise pricing not transparent"
+          ]
+        },
+        {
+          "name": "Brandwatch",
+          "tagline": "AI social media intelligence",
+          "description": "Brandwatch uses AI to monitor and analyze social media conversations, brand sentiment, and emerging trends across the internet. It processes billions of data points to provide real-time consumer insights.",
+          "isFree": false,
+          "hasFreeTier": false,
+          "pricing": "Custom pricing based on use case",
+          "specialty": "AI social listening and consumer intelligence",
+          "website": "https://www.brandwatch.com",
+          "rank": 5,
+          "preview": "https://s14415.pcdn.co/wp-content/themes/brandwatch/src/site--brandwatch.com/assets/img/social-meta/default-en.png",
+          "pros": [
+            "Fast, real-time processing",
+            "Ai social listening and consumer intelligence",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Enterprise pricing not transparent"
+          ]
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "risingStars",
+      "name": "Rising Stars",
+      "color": "#f97316",
+      "tools": [
+        {
+          "name": "Lovable",
+          "category": "code",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Bolt.new",
+          "category": "code",
+          "pros": [
+            "Clean, modern user experience",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "v0",
+          "category": "code",
+          "pros": [
+            "Growing community and ecosystem",
+            "Clean, modern user experience",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Recraft V3",
+          "source": "newThisWeek",
+          "pros": [
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "ElevenLabs",
+          "category": "voice",
+          "pros": [
+            "Clean, modern user experience",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Meshy",
+          "category": "3d",
+          "pros": [
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Granola",
+          "source": "newThisWeek",
+          "pros": [
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Opus Clip",
+          "category": "video",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Limited offline functionality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bestFree",
+      "name": "Best Free Tools",
+      "color": "#10b981",
+      "tools": [
+        {
+          "name": "Stable Diffusion 3",
+          "category": "image",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Flux",
+          "category": "image",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Google NotebookLM",
+          "category": "school",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Semantic Scholar",
+          "category": "research",
+          "pros": [
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Aider",
+          "category": "code",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Pi",
+          "category": "chat",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Requires stable internet connection"
+          ]
+        },
+        {
+          "name": "Boomy",
+          "category": "music",
+          "pros": [
+            "Growing community and ecosystem",
+            "Clean, modern user experience",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Playground AI",
+          "category": "image",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Requires stable internet connection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creatorToolkit",
+      "name": "Creator's Toolkit",
+      "color": "#ec4899",
+      "tools": [
+        {
+          "name": "Midjourney",
+          "category": "image",
+          "pros": [
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Canva AI",
+          "category": "design",
+          "pros": [
+            "Clean, modern user experience",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Descript",
+          "source": "newThisWeek",
+          "pros": [
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Gamma",
+          "category": "productivity",
+          "pros": [
+            "Clean, modern user experience",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Suno",
+          "category": "music",
+          "pros": [
+            "Clean, modern user experience",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Synthesia",
+          "category": "marketing",
+          "pros": [
+            "Growing community and ecosystem",
+            "Clean, modern user experience",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Photoroom",
+          "category": "design",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Opus Clip",
+          "category": "video",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Limited offline functionality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devEssentials",
+      "name": "Developer Essentials",
+      "color": "#4ecdc4",
+      "tools": [
+        {
+          "name": "Cursor",
+          "category": "code",
+          "pros": [
+            "Growing community and ecosystem",
+            "Clean, modern user experience",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "GitHub Copilot",
+          "category": "code",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Bolt.new",
+          "category": "code",
+          "pros": [
+            "Clean, modern user experience",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "v0",
+          "category": "code",
+          "pros": [
+            "Growing community and ecosystem",
+            "Clean, modern user experience",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Output may need manual refinement"
+          ]
+        },
+        {
+          "name": "Lovable",
+          "source": "newThisWeek",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Can be resource-intensive for large projects"
+          ]
+        },
+        {
+          "name": "Tabnine",
+          "category": "code",
+          "pros": [
+            "Clean, modern user experience",
+            "Active development with regular updates",
+            "Intuitive, easy-to-learn interface"
+          ],
+          "cons": [
+            "No free tier available",
+            "Limited offline functionality"
+          ]
+        },
+        {
+          "name": "Cody",
+          "category": "code",
+          "pros": [
+            "Intuitive, easy-to-learn interface",
+            "Growing community and ecosystem",
+            "Clean, modern user experience"
+          ],
+          "cons": [
+            "No free tier available",
+            "Occasional inconsistency in results"
+          ]
+        },
+        {
+          "name": "Devin",
+          "category": "code",
+          "pros": [
+            "Growing community and ecosystem",
+            "Clean, modern user experience",
+            "Active development with regular updates"
+          ],
+          "cons": [
+            "No free tier available",
+            "Limited offline functionality"
+          ]
+        }
+      ]
+    }
+  ],
+  "aiGenerated": [
+    {
+      "name": "OrchestrAI",
+      "category": "productivity"
+    },
+    {
+      "name": "Nexus AI Hub",
+      "category": "productivity"
+    },
+    {
+      "name": "AgentForge",
+      "category": "productivity"
+    },
+    {
+      "name": "OpenClaw",
+      "category": "code"
+    }
+  ]
+}
