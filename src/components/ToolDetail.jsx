@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import CategoryIcon from './CategoryIcon'
 
 function getToolLogo(website) {
@@ -11,6 +12,24 @@ function getToolLogo(website) {
 
 function ToolDetail({ tool, category, onBack, isFavorite, onToggleFavorite }) {
   const logoUrl = getToolLogo(tool.website)
+  const [videoId, setVideoId] = useState(null)
+  const [videoLoading, setVideoLoading] = useState(true)
+
+  useEffect(() => {
+    setVideoId(null)
+    setVideoLoading(true)
+
+    fetch(`/api/youtube?q=${encodeURIComponent(tool.name)}`)
+      .then(r => r.json())
+      .then(data => {
+        setVideoId(data.videoId || null)
+        setVideoLoading(false)
+      })
+      .catch(() => {
+        setVideoId(null)
+        setVideoLoading(false)
+      })
+  }, [tool.name])
 
   const pricingBadge = () => {
     if (tool.isFree) return <span className="badge badge-free">Free</span>
@@ -107,19 +126,34 @@ function ToolDetail({ tool, category, onBack, isFavorite, onToggleFavorite }) {
         </div>
 
         {/* Demo Video */}
-        <a
-          className="detail-video-card"
-          href={`https://www.youtube.com/results?search_query=${videoQuery}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="detail-video-play">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M8 5v14l11-7z" />
-            </svg>
+        {videoLoading ? (
+          <div className="detail-video-loading">
+            <div className="detail-video-loading-pulse" />
           </div>
-          <span className="detail-video-label">Watch {tool.name} Demo on YouTube</span>
-        </a>
+        ) : videoId ? (
+          <div className="detail-video-embed">
+            <iframe
+              src={`https://www.youtube.com/embed/${videoId}`}
+              title={`${tool.name} review`}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        ) : (
+          <a
+            className="detail-video-card"
+            href={`https://www.youtube.com/results?search_query=${videoQuery}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="detail-video-play">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+            <span className="detail-video-label">Watch {tool.name} Demo on YouTube</span>
+          </a>
+        )}
 
         {/* Specialty / Pricing */}
         <div className="detail-columns">

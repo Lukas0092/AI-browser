@@ -43,7 +43,14 @@ function ToolCard({ tool, color, onSelect, isFavorite, onToggleFavorite }) {
             src={tool.preview}
             alt=""
             loading="lazy"
-            onError={(e) => { e.target.style.display = 'none' }}
+            onError={(e) => {
+              const fallback = `https://image.thum.io/get/width/1280/crop/720/${tool.website}`
+              if (e.target.src !== fallback) {
+                e.target.src = fallback
+              } else {
+                e.target.style.display = 'none'
+              }
+            }}
           />
         )}
         {onToggleFavorite && (

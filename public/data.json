@@ -346,7 +346,7 @@
           "specialty": "Native 4K/60fps video with best-in-class motion physics and realism",
           "website": "https://klingai.com",
           "rank": 1,
-          "preview": "https://kling.ai/static/media/kling-og.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://klingai.com",
           "pros": [
             "Generous free tier available",
             "High-resolution output quality",
@@ -477,7 +477,7 @@
           "specialty": "Full video creation from text with AI editing",
           "website": "https://invideo.io",
           "rank": 7,
-          "preview": "https://cdn.invideo.io/static/img/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://invideo.io",
           "pros": [
             "Generous free tier available",
             "Full video creation from text with ai editing",
@@ -635,7 +635,7 @@
           "specialty": "Privacy-first AI code completion with local deployment",
           "website": "https://www.tabnine.com",
           "rank": 6,
-          "preview": "https://www.tabnine.com/wp-content/uploads/2024/01/tabnine-og.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.tabnine.com",
           "pros": [
             "Generous free tier available",
             "API and integration support",
@@ -678,7 +678,7 @@
           "specialty": "Terminal-based AI pair programming with git integration",
           "website": "https://aider.chat",
           "rank": 8,
-          "preview": "https://aider.chat/assets/aider-og.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://aider.chat",
           "pros": [
             "Completely free to use",
             "Open-source and community-driven",
@@ -699,7 +699,7 @@
           "specialty": "Game development coding assistance across major engines and frameworks",
           "website": "https://gameforgeai.com",
           "rank": 9,
-          "preview": "",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://gameforgeai.com",
           "pros": [
             "Deep integration with Unity, Unreal, and Godot project structures",
             "Understands common game patterns like ECS, physics layers, and shader code",
@@ -722,7 +722,7 @@
           "specialty": "AI-assisted game programming with engine-aware context and debugging",
           "website": "https://devquest.ai",
           "rank": 10,
-          "preview": "",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://devquest.ai",
           "pros": [
             "Free for open-source game projects with no query limits",
             "Supports C#, C++, GDScript, Lua, and HLSL/GLSL out of the box",
@@ -745,7 +745,7 @@
           "specialty": "Automated code review, bug detection, and intelligent refactoring",
           "website": "https://openclaw.ai",
           "rank": 11,
-          "preview": "",
+          "preview": "https://openclaw.ai/og-image.png",
           "pros": [
             "Supports 40+ programming languages with deep semantic analysis",
             "Seamless integration with GitHub, GitLab, and all major IDEs",
@@ -775,7 +775,7 @@
           "specialty": "General-purpose AI assistant with multimodal capabilities",
           "website": "https://chat.openai.com",
           "rank": 1,
-          "preview": "https://images.openai.com/blob/a2e49de2-ba5b-4869-9c2d-db3b4b5571c4/chatgpt.jpg",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://chat.openai.com",
           "pros": [
             "Generous free tier available",
             "General-purpose ai assistant with multimodal capabilities",
@@ -796,7 +796,7 @@
           "specialty": "Long-context analysis, nuanced reasoning, and safe AI",
           "website": "https://claude.ai",
           "rank": 2,
-          "preview": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1301d3e9e10dce1ad8eab43c41f24da3c584df9e-2880x1620.png&w=3840&q=75",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://claude.ai",
           "pros": [
             "Generous free tier available",
             "Long-context analysis, nuanced reasoning, and safe ai",
@@ -838,7 +838,7 @@
           "specialty": "Real-time web search with cited, accurate answers",
           "website": "https://perplexity.ai",
           "rank": 4,
-          "preview": "https://www.perplexity.ai/og-card.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://perplexity.ai",
           "pros": [
             "Generous free tier available",
             "Fast, real-time processing",
@@ -859,7 +859,7 @@
           "specialty": "Real-time information access via X with unfiltered responses",
           "website": "https://grok.x.ai",
           "rank": 5,
-          "preview": "https://x.ai/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://grok.x.ai",
           "pros": [
             "Generous free tier available",
             "Fast, real-time processing",
@@ -902,7 +902,7 @@
           "specialty": "Empathetic personal AI with coaching abilities",
           "website": "https://pi.ai",
           "rank": 7,
-          "preview": "https://pi.ai/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://pi.ai",
           "pros": [
             "Completely free to use",
             "Empathetic personal ai with coaching abilities",
@@ -930,7 +930,7 @@
           "specialty": "Financial NLP, sentiment analysis, and market intelligence",
           "website": "https://www.bloomberg.com/company/values/tech-at-bloomberg/artificial-intelligence/",
           "rank": 1,
-          "preview": "https://assets.bbhub.io/company/sites/51/2023/03/Bloomberg_GPT_Featured.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.bloomberg.com/company/values/tech-at-bloomberg/artificial-intelligence/",
           "pros": [
             "Multilingual support",
             "Financial nlp, sentiment analysis, and market intelligence",
@@ -951,7 +951,7 @@
           "specialty": "No-code algorithmic trading from natural language descriptions",
           "website": "https://www.composer.trade",
           "rank": 2,
-          "preview": "https://cdn.prod.website-files.com/635c4eeb78332f7971255095/64dc1cb3e0e55567e5e8e5f2_Composer-OG.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.composer.trade",
           "pros": [
             "Generous free tier available",
             "Multilingual support",
@@ -1043,7 +1043,7 @@
           "specialty": "Highly aesthetic, artistic image generation with distinctive style",
           "website": "https://www.midjourney.com",
           "rank": 1,
-          "preview": "https://cdn.midjourney.com/e4aa4534-4160-4a84-8b8b-264248c30d83/0_0.webp",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.midjourney.com",
           "pros": [
             "Professional-grade results",
             "Highly aesthetic, artistic image generation with distinct...",
@@ -1064,7 +1064,7 @@
           "specialty": "Accurate prompt following and in-image text rendering",
           "website": "https://openai.com/dall-e-3",
           "rank": 2,
-          "preview": "https://images.openai.com/blob/5927e8dc-0c9d-4c64-b927-7a0d4b80083f/dall-e-3.jpg",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://openai.com/dall-e-3",
           "pros": [
             "Generous free tier available",
             "API and integration support",
@@ -1107,7 +1107,7 @@
           "specialty": "Accurate text rendering in generated images",
           "website": "https://ideogram.ai",
           "rank": 4,
-          "preview": "https://ideogram.ai/assets/images/ideogram-og.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://ideogram.ai",
           "pros": [
             "Generous free tier available",
             "Accurate text rendering in generated images",
@@ -1149,7 +1149,7 @@
           "specialty": "Custom AI model training and game asset generation",
           "website": "https://leonardo.ai",
           "rank": 6,
-          "preview": "https://cdn.leonardo.ai/leonardo-og.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://leonardo.ai",
           "pros": [
             "Generous free tier available",
             "Fast, real-time processing",
@@ -1325,7 +1325,7 @@
           "specialty": "AI music creation with instant streaming distribution",
           "website": "https://boomy.com",
           "rank": 6,
-          "preview": "https://assets.boomy.com/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://boomy.com",
           "pros": [
             "Generous free tier available",
             "Fast, real-time processing",
@@ -1685,7 +1685,7 @@
           "specialty": "Autonomous AI agent deployment and governance",
           "website": "https://agentforge.ai",
           "rank": 10,
-          "preview": "",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://agentforge.ai",
           "pros": [
             "Comprehensive governance with guardrails, kill switches, and human approval gates",
             "Pre-built agent templates for common business workflows",
@@ -1715,7 +1715,7 @@
           "specialty": "AI-driven personalized strength training and progressive overload",
           "website": "https://fitbod.me",
           "rank": 1,
-          "preview": "https://cdn.fitbod.me/images/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://fitbod.me",
           "pros": [
             "Generous free tier available",
             "Highly customizable output",
@@ -1758,7 +1758,7 @@
           "specialty": "Comprehensive nutrition tracking with the world's largest food database",
           "website": "https://www.myfitnesspal.com",
           "rank": 3,
-          "preview": "https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-phone.webp&w=750&q=75",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.myfitnesspal.com",
           "pros": [
             "Generous free tier available",
             "Comprehensive nutrition tracking with the world's largest...",
@@ -1843,7 +1843,7 @@
           "specialty": "Adaptive AI bodyweight and HIIT training",
           "website": "https://www.freeletics.com",
           "rank": 7,
-          "preview": "https://www.freeletics.com/images/og/freeletics-og.jpg",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.freeletics.com",
           "pros": [
             "Generous free tier available",
             "Highly customizable output",
@@ -1913,7 +1913,7 @@
           "specialty": "AI-generated flashcards, practice tests, and Socratic tutoring",
           "website": "https://quizlet.com",
           "rank": 3,
-          "preview": "https://assets.quizlet.com/a/j/dist/i/share/quizlet-og.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://quizlet.com",
           "pros": [
             "Generous free tier available",
             "Highly customizable output",
@@ -1934,7 +1934,7 @@
           "specialty": "Real-time lecture capture and adaptive AI study set generation",
           "website": "https://www.studyfetch.com",
           "rank": 4,
-          "preview": "https://www.studyfetch.com/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.studyfetch.com",
           "pros": [
             "Generous free tier available",
             "Fast, real-time processing",
@@ -2047,7 +2047,7 @@
           "specialty": "Ultra-fast 3D model generation from text and images",
           "website": "https://www.tripo3d.ai",
           "rank": 2,
-          "preview": "https://www.tripo3d.ai/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.tripo3d.ai",
           "pros": [
             "Generous free tier available",
             "High-resolution output quality",
@@ -2111,7 +2111,7 @@
           "specialty": "3D world and scene generation with physics understanding",
           "website": "https://www.csm.ai",
           "rank": 5,
-          "preview": "https://www.csm.ai/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.csm.ai",
           "pros": [
             "Generous free tier available",
             "3d world and scene generation with physics understanding",
@@ -2160,7 +2160,7 @@
           "specialty": "Multilingual AI voices with instant voice cloning",
           "website": "https://play.ht",
           "rank": 2,
-          "preview": "https://play.ht/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://play.ht",
           "pros": [
             "Generous free tier available",
             "High-resolution output quality",
@@ -2225,7 +2225,7 @@
           "specialty": "Professional AI voiceover for enterprise content",
           "website": "https://wellsaidlabs.com",
           "rank": 5,
-          "preview": "https://wellsaidlabs.com/wp-content/uploads/2023/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://wellsaidlabs.com",
           "pros": [
             "Generous free tier available",
             "Built for team collaboration",
@@ -2254,7 +2254,7 @@
           "specialty": "Evidence-based answers from scientific literature",
           "website": "https://consensus.app",
           "rank": 1,
-          "preview": "https://consensus.app/images/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://consensus.app",
           "pros": [
             "Generous free tier available",
             "Multilingual support",
@@ -2275,7 +2275,7 @@
           "specialty": "Automated systematic literature reviews and data extraction",
           "website": "https://elicit.com",
           "rank": 2,
-          "preview": "https://elicit.com/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://elicit.com",
           "pros": [
             "Generous free tier available",
             "Automated systematic literature reviews and data extraction",
@@ -2366,7 +2366,7 @@
           "specialty": "AI-enhanced graphic design accessible to non-designers",
           "website": "https://www.canva.com",
           "rank": 1,
-          "preview": "https://static.canva.com/web/images/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.canva.com",
           "pros": [
             "Generous free tier available",
             "Professional-grade results",
@@ -2408,7 +2408,7 @@
           "specialty": "AI logo design and brand identity generation",
           "website": "https://looka.com",
           "rank": 3,
-          "preview": "https://cdn.logojoy.com/wp-content/uploads/og-image.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://looka.com",
           "pros": [
             "Generous free tier available",
             "Highly customizable output",
@@ -2545,7 +2545,7 @@
           "specialty": "AI-optimized marketing language generation",
           "website": "https://www.persado.com",
           "rank": 4,
-          "preview": "https://www.persado.com/wp-content/uploads/persado-og.png",
+          "preview": "https://image.thum.io/get/width/1280/crop/720/https://www.persado.com",
           "pros": [
             "Multilingual support",
             "Ai-optimized marketing language generation",

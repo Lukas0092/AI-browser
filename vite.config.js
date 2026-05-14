@@ -22,6 +22,35 @@ const CATEGORIES = [
   { id: 'marketing', name: 'Marketing', color: '#84cc16' },
 ]
 
+async function getOgImage(url) {
+  try {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 8000)
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+      redirect: 'follow',
+    })
+    clearTimeout(timeout)
+    const html = await res.text()
+
+    const ogMatch = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
+      || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)
+    if (ogMatch) return ogMatch[1]
+
+    const twMatch = html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i)
+      || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i)
+    if (twMatch) return twMatch[1]
+
+    // Site is reachable but has no meta image — use screenshot fallback
+    return `https://image.thum.io/get/width/1280/crop/720/${url}`
+  } catch {
+    // Site unreachable — still try screenshot service (browser onError hides failures)
+    if (url?.startsWith('http')) return `https://image.thum.io/get/width/1280/crop/720/${url}`
+    return null
+  }
+}
+
 function findClaudeCliJs() {
   const candidates = []
   try {
@@ -106,9 +135,51 @@ function parseAndSaveTools(output) {
 }
 
 function aiGeneratePlugin() {
+  const youtubeCache = new Map()
+
   return {
     name: 'ai-generate',
     configureServer(server) {
+      // YouTube video ID lookup
+      server.middlewares.use('/api/youtube', async (req, res) => {
+        if (req.method !== 'GET') {
+          res.statusCode = 405
+          res.end('Method not allowed')
+          return
+        }
+
+        const url = new URL(req.url, 'http://localhost')
+        const query = url.searchParams.get('q')
+        if (!query) {
+          res.statusCode = 400
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ videoId: null }))
+          return
+        }
+
+        if (youtubeCache.has(query)) {
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ videoId: youtubeCache.get(query) }))
+          return
+        }
+
+        try {
+          const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(query + ' review')}`
+          const resp = await fetch(searchUrl, {
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' }
+          })
+          const html = await resp.text()
+          const match = html.match(/"videoId":"([a-zA-Z0-9_-]{11})"/)
+          const videoId = match ? match[1] : null
+          youtubeCache.set(query, videoId)
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ videoId }))
+        } catch {
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ videoId: null }))
+        }
+      })
+
       // Download all AI-generated tools as a JSON file
       server.middlewares.use('/api/export-generated', (req, res) => {
         const dataPath = resolve(process.cwd(), 'public', 'data.json')
@@ -294,19 +365,45 @@ function aiGeneratePlugin() {
           res.end()
         })
 
-        proc.on('close', code => {
+        proc.on('close', async (code) => {
           clearTimeout(timer)
           if (code !== 0) {
             send({ type: 'error', error: `Process exited with code ${code}` })
+            res.end()
           } else {
             const result = parseAndSaveTools(fullOutput)
             if (result.error) {
               send({ type: 'error', error: result.error })
+              res.end()
             } else {
+              // Fetch preview images for newly added tools
+              if (result.added?.length > 0) {
+                const dataPath = resolve(process.cwd(), 'public', 'data.json')
+                const data = JSON.parse(readFileSync(dataPath, 'utf-8'))
+                let updated = false
+
+                await Promise.all(result.added.map(async ({ tool }) => {
+                  if (!tool.preview && tool.website) {
+                    const img = await getOgImage(tool.website)
+                    if (img) {
+                      tool.preview = img
+                      for (const cat of data.categories) {
+                        const found = cat.tools.find(t => t.name === tool.name)
+                        if (found) { found.preview = img; updated = true; break }
+                      }
+                    }
+                  }
+                }))
+
+                if (updated) {
+                  writeFileSync(dataPath, JSON.stringify(data, null, 2) + '\n', 'utf-8')
+                }
+              }
+
               send({ type: 'done', added: result.added })
+              res.end()
             }
           }
-          res.end()
         })
 
         const timer = setTimeout(() => {
